@@ -1,38 +1,62 @@
 {
     "afterAll": {
         "prefix": "aa",
-        "body": "\nafterAll(() => {\n\t$1\n});\n",
+        "body": "\nafterAll(() => {\n\t$0\n});\n",
         "description": "afterAll function is called once after all specs",
         "scope": "source.js"
     },
     "afterEach": {
         "prefix": "ae",
-        "body": "\nafterEach(() => {\n\t$1\n});\n",
+        "body": "\nafterEach(() => {\n\t$0\n});\n",
         "description": "afterEach function is called once after each spec",
         "scope": "source.js"
     },
     "beforeAll": {
         "prefix": "ba",
-        "body": "\nbeforeAll(() => {\n\t$1\n});\n",
+        "body": "\nbeforeAll(() => {\n\t$0\n});\n",
         "description": "beforeAll function is called once before all specs",
         "scope": "source.js"
     },
     "beforeEach": {
         "prefix": "be",
-        "body": "\nbeforeEach(() => {\n\t$1\n});\n",
+        "body": "\nbeforeEach(() => {\n\t$0\n});\n",
         "description": "beforeEach function is called once before each spec",
         "scope": "source.js"
     },
     "describe": {
         "prefix": "desc",
-        "body": "\ndescribe('${1:Name of the group}', () => {\n\t$2\n});\n",
-        "description": "creates a suite of tests",
+        "body": "\ndescribe('${1:Name of the group}', () => {\n\t$0\n});\n",
+        "description": "creates a describe block",
+        "scope": "source.js"
+    },
+    "describe.only": {
+        "prefix": "desco",
+        "body": "\ndescribe.only('${1:Name of the group}', () => {\n\t$0\n});\n",
+        "description": "creates a describe block that runs only once",
+        "scope": "source.js"
+    },
+    "describe.skip": {
+        "prefix": "descs",
+        "body": "\ndescribe.skip('${1:Name of the group}', () => {\n\t$0\n});\n",
+        "description": "creates a describe block that will be skipped",
         "scope": "source.js"
     },
     "test": {
         "prefix": "test",
-        "body": "\ntest('should ${1:behave...}', () => {\n\t$2\n});\n",
-        "description": "creates a test method",
+        "body": "\ntest('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "description": "creates a test block",
+        "scope": "source.js"
+    },
+    "test.only": {
+        "prefix": "testo",
+        "body": "\ntest.only('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "description": "creates a test block  that runs only once",
+        "scope": "source.js"
+    },
+    "test.skip": {
+        "prefix": "tests",
+        "body": "\ntest.skip('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "description": "creates a test block that will be skipped",
         "scope": "source.js"
     }
 }

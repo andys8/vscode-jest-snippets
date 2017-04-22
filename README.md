@@ -5,11 +5,16 @@ Jest snippets extension for vscode.
 
 Below is a list of all available snippets and the triggers of each one. The **→** means the `TAB` key.
 
-### Specs
+### Globals
+
 | Trigger      | Content |
 | -------:     | ------- |
 | `desc→`      | describe method |
-| `test→`      | it method |
+| `desco→`     | describe.only method |
+| `descs→`     | describe.skip method |
+| `test→`      | test method |
+| `testo→`     | test.only method |
+| `tests→`     | test.skip method |
 | `ae→`        | after each method |
 | `aa→`        | after all method |
 | `be→`        | before each method |
