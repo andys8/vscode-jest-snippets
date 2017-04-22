@@ -11,7 +11,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `desc→`      | describe method |
 | `test→`      | it method |
 | `ae→`        | after each method |
+| `aa→`        | after all method |
 | `be→`        | before each method |
+| `ba→`        | before all method |
 
 ## Settings
 
