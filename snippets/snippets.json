@@ -1,1 +1,26 @@
-{}
+{
+    "afterEach": {
+        "prefix": "ae",
+        "body": "\nafterEach(() => {\n\t$1\n});\n",
+        "description": "afterEach function is called once after each spec",
+        "scope": "source.js"
+    },
+    "beforeEach": {
+        "prefix": "be",
+        "body": "\nbeforeEach(() => {\n\t$1\n});\n",
+        "description": "beforeEach function is called once before each spec",
+        "scope": "source.js"
+    },
+    "describe": {
+        "prefix": "desc",
+        "body": "\ndescribe('${1:Name of the group}', () => {\n\t$2\n});\n",
+        "description": "creates a suite of tests",
+        "scope": "source.js"
+    },
+    "test": {
+        "prefix": "test",
+        "body": "\ntest('should ${1:behave...}', () => {\n\t$2\n});\n",
+        "description": "creates a test method",
+        "scope": "source.js"
+    }
+}
