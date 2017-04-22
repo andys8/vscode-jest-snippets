@@ -41,6 +41,20 @@
         "description": "creates a describe block that will be skipped",
         "scope": "source.js"
     },
+    "template:cut": {
+        "prefix": "cut",
+        "body": [
+            "describe('${1:Name of the group}', () => {\n",
+            "\tlet ${2:cut};\n",
+            "\tbeforeEach(() => {\n\t\tthis.$2 = $3;\n\t});\n",
+            "\ttest('should ${4:behave...}', () => {",
+            "\t\texpect(this.$2).toBe($0);",
+            "\t});\n",
+            "});"
+        ],
+        "description": "creates a template to test a class under test",
+        "scope": "source.js"
+    },
     "test": {
         "prefix": "test",
         "body": "\ntest('should ${1:behave...}', () => {\n\t$0\n});\n",
