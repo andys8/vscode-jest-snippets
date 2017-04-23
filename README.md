@@ -66,4 +66,13 @@ Below is a list of all available snippets and the triggers of each one. The **â†
 
 ## Settings
 
-You can add `"editor.snippetSuggestions": "top"` to your vscode `settings.json` to show snippets on top of the suggestion list.
+The `editor.snippetSuggestions` setting in vscode `settings.json` will show snippets on top of the suggestion list.
+
+```json
+"editor.snippetSuggestions": "top"
+```
+
+## Credits
+
+* Thanks to [xabikos](https://github.com/xabikos) for [vscode-jasmine](https://github.com/xabikos/vscode-jasmine)
+* Thanks to [martinlechner1](https://github.com/martinlechner1) for contribution
