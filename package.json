@@ -16,6 +16,10 @@
     "categories": [
         "Snippets"
     ],
+    "galleryBanner": {
+        "color": "#99424f",
+        "theme": "light"
+    },
     "contributes": {
         "snippets": [
             {
