@@ -41,6 +41,24 @@
         "description": "creates a describe block that will be skipped",
         "scope": "source.js"
     },
+    "expect": {
+        "prefix": "exp",
+        "body": "expect($1)$0",
+        "description": "expect actual value",
+        "scope": "source.js"
+    },
+    "expect.resolves": {
+        "prefix": "expr",
+        "body": "expect($1).resolves$0",
+        "description": "expect promise resolves to",
+        "scope": "source.js"
+    },
+    "expect.rejects": {
+        "prefix": "exprj",
+        "body": "expect($1).rejects$0",
+        "description": "expect promise rejects to",
+        "scope": "source.js"
+    },
     "template:cut": {
         "prefix": "cut",
         "body": [
@@ -71,6 +89,168 @@
         "prefix": "tests",
         "body": "\ntest.skip('should ${1:behave...}', () => {\n\t$0\n});\n",
         "description": "creates a test block that will be skipped",
+        "scope": "source.js"
+    },
+    "toBe": {
+        "prefix": "tb",
+        "body": "expect($1).toBe($2);$0",
+        "description": "expects the first argument to be equal with the second one",
+        "scope": "source.js"
+    },
+    "toBeCloseTo": {
+        "prefix": "tbct",
+        "body": "expect($1).toBeCloseTo(${2:number}, ${3:delta});$0",
+        "description": "expects the first argument to be close to the second one base on the delta",
+        "scope": "source.js"
+    },
+    "toBeDefined": {
+        "prefix": "tbd",
+        "body": "expect($1).toBeDefined();$0",
+        "description": "expects the argument is defined",
+        "scope": "source.js"
+    },
+    "toBeFalsy": {
+        "prefix": "tbf",
+        "body": "expect($1).toBeFalsy();$0",
+        "description": "expects the argument is falsy",
+        "scope": "source.js"
+    },
+    "toBeGreaterThan": {
+        "prefix": "tbgt",
+        "body": "expect($1).toBeGreaterThan($2);$0",
+        "description": "expects the argument is greater than or equal",
+        "scope": "source.js"
+    },
+    "toBeGreaterThanOrEqual": {
+        "prefix": "tbgte",
+        "body": "expect($1).toBeGreaterThanOrEqual($2);$0",
+        "description": "expects the argument is greater than",
+        "scope": "source.js"
+    },
+    "toBeInstanceOf": {
+        "prefix": "tbi",
+        "body": "expect($1).toBeInstanceOf($2);$0",
+        "description": "expects the argument is less than",
+        "scope": "source.js"
+    },
+    "toBeLessThan": {
+        "prefix": "tblt",
+        "body": "expect($1).toBeLessThan($2);$0",
+        "description": "expects the argument is less than",
+        "scope": "source.js"
+    },
+    "toBeLessThanOrEqual": {
+        "prefix": "tblte",
+        "body": "expect($1).toBeLessThan($2);$0",
+        "description": "expects the argument is less than or equal",
+        "scope": "source.js"
+    },
+    "toBeNull": {
+        "prefix": "tbn",
+        "body": "expect($1).toBeNull();$0",
+        "description": "expects the argument is null",
+        "scope": "source.js"
+    },
+    "toBeTruthy": {
+        "prefix": "tbt",
+        "body": "expect($1).toBeTruthy();$0",
+        "description": "expects the argument is truthy",
+        "scope": "source.js"
+    },
+    "toBeUndefined": {
+        "prefix": "tbu",
+        "body": "expect($1).toBeUndefined();$0",
+        "description": "expects the argument is undefined",
+        "scope": "source.js"
+    },
+    "toContain": {
+        "prefix": "tc",
+        "body": "expect(${1:list}).toContain(${2:item});$0",
+        "description": "expects the list contains the item (===)",
+        "scope": "source.js"
+    },
+    "toContainEqual": {
+        "prefix": "tce",
+        "body": "expect(${1:list}).toContainEqual(${2:item});$0",
+        "description": "expects the list contains the item (equals)",
+        "scope": "source.js"
+    },
+    "toEqual": {
+        "prefix": "te",
+        "body": "expect($1).toEqual($2);$0",
+        "description": "expects the first argument to be equal with the second one",
+        "scope": "source.js"
+    },
+    "toHaveBeenCalled": {
+        "prefix": "thbc",
+        "body": "expect($1).toHaveBeenCalled();$0",
+        "description": "returns true if the spy was called",
+        "scope": "source.js"
+    },
+    "toHaveBeenCalledTimes": {
+        "prefix": "thbct",
+        "body": "expect($1).toHaveBeenCalledTimes($2);$0",
+        "description": "returns true if the spy has been called given times",
+        "scope": "source.js"
+    },
+    "toHaveBeenCalledWith": {
+        "prefix": "thbcw",
+        "body": "expect($1).toHaveBeenCalledWith($2);$0",
+        "description": "returns true if the spy has been called with",
+        "scope": "source.js"
+    },
+    "toHaveBeenLastCalledWith": {
+        "prefix": "thblcw",
+        "body": "expect($1).toHaveBeenLastCalledWith($2);$0",
+        "description": "returns true if the spy has been called with",
+        "scope": "source.js"
+    },
+    "toHaveLength": {
+        "prefix": "thl",
+        "body": "expect($1).toHaveLength($2);$0",
+        "description": "expects the object to have length",
+        "scope": "source.js"
+    },
+    "toHaveProperty": {
+        "prefix": "thp",
+        "body": "expect($1).toHaveProperty(${2:keyPath}, ${3:value});$0",
+        "description": "returns true if the argument matches the second object",
+        "scope": "source.js"
+    },
+    "toMatch": {
+        "prefix": "tm",
+        "body": "expect($1).toMatch($2);$0",
+        "description": "returns true if the argument matches the second value",
+        "scope": "source.js"
+    },
+    "toMatchObject": {
+        "prefix": "tmo",
+        "body": "expect($1).toMatchObject($2);$0",
+        "description": "returns true if the argument matches the second object",
+        "scope": "source.js"
+    },
+    "toMatchSnapshot": {
+        "prefix": "tms",
+        "body": "expect($1).toMatchSnapshot();$0",
+        "description": "returns true if the argument matches the most recent snapshot",
+        "scope": "source.js"
+    },
+    "toThrow": {
+        "prefix": "tt",
+        "body": "expect(() => {\n\t$0\n}).toThrow();",
+        "description": "expects that the method will throw",
+        "scope": "source.js"
+    },
+    "toThrowError": {
+        "prefix": "tte",
+        "body": "expect(() => {\n\t$0\n}).toThrowError($1);",
+        "description": "expects that the method will throw a specific error",
+        "scope": "source.js"
+    },
+    "toThrowErrorMatchingSnapshot": {
+        "prefix": "ttems",
+        "body": "expect(() => {\n\t$0\n}).toThrowErrorMatchingSnapshot();",
+        "description": "expects that the method will throw an error mathing the snapshpot",
         "scope": "source.js"
     }
 }
