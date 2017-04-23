@@ -4,6 +4,7 @@
     "description": "Jest unit test snippets",
     "version": "0.0.1",
     "publisher": "andys8",
+    "icon": "images/jest_snippets_icon.png",
     "engines": {
         "vscode": "^1.11.0"
     },
