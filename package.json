@@ -1,10 +1,15 @@
 {
     "name": "jest-snippets",
     "displayName": "Jest Snippets",
-    "description": "Jest unit test snippets",
+    "description": "Code snippets for testing framework Jest",
     "version": "0.0.1",
     "publisher": "andys8",
     "icon": "images/jest_snippets_icon.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andys8/vscode-jest-snippets"
+    },
     "engines": {
         "vscode": "^1.11.0"
     },
@@ -15,6 +20,10 @@
         "snippets": [
             {
                 "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/snippets.json"
             }
         ]

@@ -1,5 +1,5 @@
 # vscode-jest-snippets
-Jest snippets extension for vscode.
+[Jest](https://facebook.github.io/jest) snippets extension for [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Snippets
 
