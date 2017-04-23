@@ -2,7 +2,7 @@
     "name": "jest-snippets",
     "displayName": "Jest Snippets",
     "description": "Code snippets for testing framework Jest",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "andys8",
     "icon": "images/jest_snippets_icon.png",
     "license": "MIT",
