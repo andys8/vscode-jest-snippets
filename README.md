@@ -27,6 +27,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `exp→`       | expect |
 | `expr→`      | expect.resolves |
 | `exprj→`     | expect.rejects |
+| `it→`        | it |
+| `ito→`       | it.only |
+| `its→`       | it.skip |
 | `test→`      | test |
 | `testo→`     | test.only |
 | `tests→`     | test.skip |

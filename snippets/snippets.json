@@ -32,7 +32,7 @@
     "describe.only": {
         "prefix": "desco",
         "body": "\ndescribe.only('${1:Name of the group}', () => {\n\t$0\n});\n",
-        "description": "creates a describe block that runs only once",
+        "description": "creates a describe block that runs only",
         "scope": "source.js"
     },
     "describe.skip": {
@@ -59,6 +59,24 @@
         "description": "expect promise rejects to",
         "scope": "source.js"
     },
+    "it": {
+        "prefix": "it",
+        "body": "\nit('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "description": "creates an it block",
+        "scope": "source.js"
+    },
+    "it.only": {
+        "prefix": "ito",
+        "body": "\nit.only('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "description": "creates an it block  that runs only",
+        "scope": "source.js"
+    },
+    "it.skip": {
+        "prefix": "its",
+        "body": "\nit.skip('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "description": "creates an it block that will be skipped",
+        "scope": "source.js"
+    },
     "template:cut": {
         "prefix": "cut",
         "body": [
@@ -82,7 +100,7 @@
     "test.only": {
         "prefix": "testo",
         "body": "\ntest.only('should ${1:behave...}', () => {\n\t$0\n});\n",
-        "description": "creates a test block  that runs only once",
+        "description": "creates a test block  that runs only",
         "scope": "source.js"
     },
     "test.skip": {
