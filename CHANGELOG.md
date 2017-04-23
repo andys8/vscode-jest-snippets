@@ -1,7 +1,3 @@
-# Change Log
-All notable changes to the "jest-snippets" extension will be documented in this file.
+# Changelog
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+[Releases](https://github.com/andys8/vscode-jest-snippets/releases)
