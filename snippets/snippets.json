@@ -220,7 +220,7 @@
     "toHaveBeenLastCalledWith": {
         "prefix": "thblcw",
         "body": "expect($1).toHaveBeenLastCalledWith($2);$0",
-        "description": "returns true if the spy has been called with",
+        "description": "returns true if the spy has been last called with",
         "scope": "source.js"
     },
     "toHaveLength": {
