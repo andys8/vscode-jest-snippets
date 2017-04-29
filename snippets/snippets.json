@@ -270,5 +270,47 @@
         "body": "expect(() => {\n\t$0\n}).toThrowErrorMatchingSnapshot();",
         "description": "expects that the method will throw an error mathing the snapshpot",
         "scope": "source.js"
-    }
+    },
+    "testAsyncAwait": {
+		"prefix": "taa",
+		"body": [
+			"test('$1', async () => {", 
+			"\tawait expect($2($3)).toBe($4);",
+			"});"
+		],
+		"description": "Generates jest test using async/await."
+	},
+	"testCallbackDone": {
+		"prefix": "tcd",
+		"body": [
+			"test('$1', done => {", 
+			"\tfunction callback(data) {",
+			"\t\texpect(data).toBe($3);",
+    		"\t\tdone();",
+  			"\t}",
+			"\t$2(callback);",
+			"});"
+		],
+		"description": "Generates jest callback test using done."
+	},
+	"testPromise": {
+		"prefix": "tp",
+		"body": [
+			"test('$1', () => {", 
+			"\treturn $2($3).then($4 => {",
+			"\t\texpect($4).toBe($5);",
+			"\t});",
+			"});"
+		],
+		"description": "Generates jest test for promise."
+	},
+	"testPromiseResolves": {
+		"prefix": "tpr",
+		"body": [
+			"test('$1', () => {", 
+			"\treturn expect($2($3)).resolves.toBe($4);",
+			"});"
+		],
+		"description": "Generates jest test for promise using resolves."
+	}
 }
