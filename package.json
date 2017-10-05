@@ -33,6 +33,10 @@
             {
                 "language": "typescript",
                 "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
             }
         ]
     }
