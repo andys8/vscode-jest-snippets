@@ -1,43 +1,43 @@
 {
     "afterAll": {
         "prefix": "aa",
-        "body": "\nafterAll(() => {\n\t$0\n});\n",
+        "body": "afterAll(() => {\n\t$0\n});",
         "description": "afterAll function is called once after all specs",
         "scope": "source.js"
     },
     "afterEach": {
         "prefix": "ae",
-        "body": "\nafterEach(() => {\n\t$0\n});\n",
+        "body": "afterEach(() => {\n\t$0\n});",
         "description": "afterEach function is called once after each spec",
         "scope": "source.js"
     },
     "beforeAll": {
         "prefix": "ba",
-        "body": "\nbeforeAll(() => {\n\t$0\n});\n",
+        "body": "beforeAll(() => {\n\t$0\n});",
         "description": "beforeAll function is called once before all specs",
         "scope": "source.js"
     },
     "beforeEach": {
         "prefix": "be",
-        "body": "\nbeforeEach(() => {\n\t$0\n});\n",
+        "body": "beforeEach(() => {\n\t$0\n});",
         "description": "beforeEach function is called once before each spec",
         "scope": "source.js"
     },
     "describe": {
         "prefix": "desc",
-        "body": "\ndescribe('${1:Name of the group}', () => {\n\t$0\n});\n",
+        "body": "describe('${1:Name of the group}', () => {\n\t$0\n});",
         "description": "creates a describe block",
         "scope": "source.js"
     },
     "describe.only": {
         "prefix": "desco",
-        "body": "\ndescribe.only('${1:Name of the group}', () => {\n\t$0\n});\n",
+        "body": "describe.only('${1:Name of the group}', () => {\n\t$0\n});",
         "description": "creates a describe block that runs only",
         "scope": "source.js"
     },
     "describe.skip": {
         "prefix": "descs",
-        "body": "\ndescribe.skip('${1:Name of the group}', () => {\n\t$0\n});\n",
+        "body": "describe.skip('${1:Name of the group}', () => {\n\t$0\n});",
         "description": "creates a describe block that will be skipped",
         "scope": "source.js"
     },
@@ -61,19 +61,19 @@
     },
     "it": {
         "prefix": "it",
-        "body": "\nit('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "body": "it('should ${1:behave...}', () => {\n\t$0\n});",
         "description": "creates an it block",
         "scope": "source.js"
     },
     "it.only": {
         "prefix": "ito",
-        "body": "\nit.only('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "body": "it.only('should ${1:behave...}', () => {\n\t$0\n});",
         "description": "creates an it block  that runs only",
         "scope": "source.js"
     },
     "it.skip": {
         "prefix": "its",
-        "body": "\nit.skip('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "body": "it.skip('should ${1:behave...}', () => {\n\t$0\n});",
         "description": "creates an it block that will be skipped",
         "scope": "source.js"
     },
@@ -93,19 +93,19 @@
     },
     "test": {
         "prefix": "test",
-        "body": "\ntest('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "body": "test('should ${1:behave...}', () => {\n\t$0\n});",
         "description": "creates a test block",
         "scope": "source.js"
     },
     "test.only": {
         "prefix": "testo",
-        "body": "\ntest.only('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "body": "test.only('should ${1:behave...}', () => {\n\t$0\n});",
         "description": "creates a test block  that runs only",
         "scope": "source.js"
     },
     "test.skip": {
         "prefix": "tests",
-        "body": "\ntest.skip('should ${1:behave...}', () => {\n\t$0\n});\n",
+        "body": "test.skip('should ${1:behave...}', () => {\n\t$0\n});",
         "description": "creates a test block that will be skipped",
         "scope": "source.js"
     },
