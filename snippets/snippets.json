@@ -159,7 +159,7 @@
     },
     "toBeLessThanOrEqual": {
         "prefix": "tblte",
-        "body": "expect($1).toBeLessThan($2);$0",
+        "body": "expect($1).toBeLessThanOrEqual($2);$0",
         "description": "expects the argument is less than or equal",
         "scope": "source.js"
     },
