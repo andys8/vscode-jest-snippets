@@ -33,6 +33,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `it→`        | it |
 | `ito→`       | it.only |
 | `its→`       | it.skip |
+| `ita→`       | it(..., async () => {}) |
 | `test→`      | test |
 | `testo→`     | test.only |
 | `tests→`     | test.skip |
