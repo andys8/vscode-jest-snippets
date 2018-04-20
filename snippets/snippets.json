@@ -68,13 +68,19 @@
     "it.only": {
         "prefix": "ito",
         "body": "it.only('should ${1:behave...}', () => {\n\t$0\n});",
-        "description": "creates an it block  that runs only",
+        "description": "creates an it block that runs only",
         "scope": "source.js"
     },
     "it.skip": {
         "prefix": "its",
         "body": "it.skip('should ${1:behave...}', () => {\n\t$0\n});",
         "description": "creates an it block that will be skipped",
+        "scope": "source.js"
+    },
+    "it:async": {
+        "prefix": "ita",
+        "body": "it('should ${1:behave...}', async () => {\n\t$0\n});",
+        "description": "creates an it block with async callback function",
         "scope": "source.js"
     },
     "template:cut": {
