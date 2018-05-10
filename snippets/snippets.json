@@ -83,6 +83,12 @@
         "description": "creates an it block with async callback function",
         "scope": "source.js"
     },
+    "jest.fn": {
+        "prefix": "jfn",
+        "body": "jest.fn($0)",
+        "description": "creates jest.fn()",
+        "scope": "source.js"
+    },
     "template:cut": {
         "prefix": "cut",
         "body": [
