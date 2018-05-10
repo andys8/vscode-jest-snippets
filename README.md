@@ -19,6 +19,11 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `aa→`        | after all |
 | `be→`        | before each |
 | `ba→`        | before all |
+
+### Tests
+
+| Trigger      | Content |
+| -------:     | ------- |
 | `it→`        | it |
 | `ito→`       | it.only |
 | `its→`       | it.skip |
