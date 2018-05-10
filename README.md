@@ -12,16 +12,21 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 | Trigger      | Content |
 | -------:     | ------- |
-| `desc→`      | describe method |
-| `desco→`     | describe.only method |
-| `descs→`     | describe.skip method |
-| `test→`      | test method |
-| `testo→`     | test.only method |
-| `tests→`     | test.skip method |
-| `ae→`        | after each method |
-| `aa→`        | after all method |
-| `be→`        | before each method |
-| `ba→`        | before all method |
+| `desc→`      | describe |
+| `desco→`     | describe.only |
+| `descs→`     | describe.skip |
+| `ae→`        | after each |
+| `aa→`        | after all |
+| `be→`        | before each |
+| `ba→`        | before all |
+| `it→`        | it |
+| `ito→`       | it.only |
+| `its→`       | it.skip |
+| `ita→`       | it(..., async ...) |
+| `test→`      | test |
+| `testo→`     | test.only |
+| `tests→`     | test.skip |
+| `testa→`     | test(..., async ...) |
 
 ### Expect
 
@@ -30,13 +35,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `exp→`       | expect |
 | `expr→`      | expect.resolves |
 | `exprj→`     | expect.rejects |
-| `it→`        | it |
-| `ito→`       | it.only |
-| `its→`       | it.skip |
-| `ita→`       | it(..., async () => {}) |
-| `test→`      | test |
-| `testo→`     | test.only |
-| `tests→`     | test.skip |
 | `tb→`        | toBe |
 | `tbct→`      | toBeCloseTo |
 | `tbd→`       | toBeDefined |

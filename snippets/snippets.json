@@ -121,6 +121,12 @@
         "description": "creates a test block that will be skipped",
         "scope": "source.js"
     },
+    "test:async": {
+        "prefix": "testa",
+        "body": "test('should ${1:behave...}', async () => {\n\t$0\n});",
+        "description": "creates an test block with async callback function",
+        "scope": "source.js"
+    },
     "toBe": {
         "prefix": "tb",
         "body": "expect($1).toBe($2);$0",
