@@ -88,9 +88,9 @@
         "body": [
             "describe('${1:Name of the group}', () => {\n",
             "\tlet ${2:cut};\n",
-            "\tbeforeEach(() => {\n\t\tthis.$2 = $3;\n\t});\n",
+            "\tbeforeEach(() => {\n\t\t$2 = $3;\n\t});\n",
             "\ttest('should ${4:behave...}', () => {",
-            "\t\texpect(this.$2).toBe($0);",
+            "\t\texpect($2).toBe($0);",
             "\t});\n",
             "});"
         ],
