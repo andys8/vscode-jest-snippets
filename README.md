@@ -55,6 +55,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `tc→`        | toContain |
 | `tce→`       | toContainEqual |
 | `te→`        | toEqual |
+| `tse→`       | toStrictEqual |
 | `thbc→`      | toHaveBeenCalled |
 | `thbct→`     | toHaveBeenCalledTimes |
 | `thbcw→`     | toHaveBeenCalledWith |

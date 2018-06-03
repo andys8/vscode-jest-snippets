@@ -255,32 +255,38 @@
     },
     "toMatch": {
         "prefix": "tm",
-        "body": "expect($1).toMatch($2);$0",
+        "body": "expect($1).toMatch($0);",
         "description": "returns true if the argument matches the second value",
         "scope": "source.js"
     },
     "toMatchObject": {
         "prefix": "tmo",
-        "body": "expect($1).toMatchObject($2);$0",
+        "body": "expect($1).toMatchObject($0);",
         "description": "returns true if the argument matches the second object",
         "scope": "source.js"
     },
     "toMatchSnapshot": {
         "prefix": "tms",
-        "body": "expect($1).toMatchSnapshot();$0",
+        "body": "expect($1).toMatchSnapshot($0);",
         "description": "returns true if the argument matches the most recent snapshot",
+        "scope": "source.js"
+    },
+    "toStrictEqual": {
+        "prefix": "tse",
+        "body": "expect($1).toStrictEqual($0);",
+        "description": "expects the first argument to be strictly equal with the second one",
         "scope": "source.js"
     },
     "toThrow": {
         "prefix": "tt",
-        "body": "expect(() => {\n\t$0\n}).toThrow();",
-        "description": "expects that the method will throw",
+        "body": "expect(() => {\n\t$0\n}).toThrow($1);",
+        "description": "expects that the method will throw an error",
         "scope": "source.js"
     },
     "toThrowError": {
         "prefix": "tte",
         "body": "expect(() => {\n\t$0\n}).toThrowError($1);",
-        "description": "expects that the method will throw a specific error",
+        "description": "expects that the method will throw an error",
         "scope": "source.js"
     },
     "toThrowErrorMatchingSnapshot": {
