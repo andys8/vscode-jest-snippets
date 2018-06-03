@@ -43,7 +43,7 @@
     },
     "expect": {
         "prefix": "exp",
-        "body": "expect($1)$0",
+        "body": "expect($0)",
         "description": "expect actual value",
         "scope": "source.js"
     },
@@ -129,7 +129,7 @@
     },
     "toBe": {
         "prefix": "tb",
-        "body": "expect($1).toBe($2);$0",
+        "body": "expect($1).toBe($0);",
         "description": "expects the first argument to be equal with the second one",
         "scope": "source.js"
     },
@@ -153,31 +153,31 @@
     },
     "toBeGreaterThan": {
         "prefix": "tbgt",
-        "body": "expect($1).toBeGreaterThan($2);$0",
+        "body": "expect($1).toBeGreaterThan($0);",
         "description": "expects the argument is greater than or equal",
         "scope": "source.js"
     },
     "toBeGreaterThanOrEqual": {
         "prefix": "tbgte",
-        "body": "expect($1).toBeGreaterThanOrEqual($2);$0",
+        "body": "expect($1).toBeGreaterThanOrEqual($0);",
         "description": "expects the argument is greater than",
         "scope": "source.js"
     },
     "toBeInstanceOf": {
         "prefix": "tbi",
-        "body": "expect($1).toBeInstanceOf($2);$0",
+        "body": "expect($1).toBeInstanceOf($0);",
         "description": "expects the argument is less than",
         "scope": "source.js"
     },
     "toBeLessThan": {
         "prefix": "tblt",
-        "body": "expect($1).toBeLessThan($2);$0",
+        "body": "expect($1).toBeLessThan($0);",
         "description": "expects the argument is less than",
         "scope": "source.js"
     },
     "toBeLessThanOrEqual": {
         "prefix": "tblte",
-        "body": "expect($1).toBeLessThanOrEqual($2);$0",
+        "body": "expect($1).toBeLessThanOrEqual($0);",
         "description": "expects the argument is less than or equal",
         "scope": "source.js"
     },
@@ -201,19 +201,19 @@
     },
     "toContain": {
         "prefix": "tc",
-        "body": "expect(${1:list}).toContain(${2:item});$0",
+        "body": "expect(${1:list}).toContain($0);",
         "description": "expects the list contains the item (===)",
         "scope": "source.js"
     },
     "toContainEqual": {
         "prefix": "tce",
-        "body": "expect(${1:list}).toContainEqual(${2:item});$0",
+        "body": "expect(${1:list}).toContainEqual($0);",
         "description": "expects the list contains the item (equals)",
         "scope": "source.js"
     },
     "toEqual": {
         "prefix": "te",
-        "body": "expect($1).toEqual($2);$0",
+        "body": "expect($1).toEqual($0);",
         "description": "expects the first argument to be equal with the second one",
         "scope": "source.js"
     },
@@ -225,25 +225,25 @@
     },
     "toHaveBeenCalledTimes": {
         "prefix": "thbct",
-        "body": "expect($1).toHaveBeenCalledTimes($2);$0",
+        "body": "expect($1).toHaveBeenCalledTimes($0);",
         "description": "returns true if the spy has been called given times",
         "scope": "source.js"
     },
     "toHaveBeenCalledWith": {
         "prefix": "thbcw",
-        "body": "expect($1).toHaveBeenCalledWith($2);$0",
+        "body": "expect($1).toHaveBeenCalledWith($0);",
         "description": "returns true if the spy has been called with",
         "scope": "source.js"
     },
     "toHaveBeenLastCalledWith": {
         "prefix": "thblcw",
-        "body": "expect($1).toHaveBeenLastCalledWith($2);$0",
+        "body": "expect($1).toHaveBeenLastCalledWith($0);",
         "description": "returns true if the spy has been last called with",
         "scope": "source.js"
     },
     "toHaveLength": {
         "prefix": "thl",
-        "body": "expect($1).toHaveLength($2);$0",
+        "body": "expect($1).toHaveLength($0);",
         "description": "expects the object to have length",
         "scope": "source.js"
     },
