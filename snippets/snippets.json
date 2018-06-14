@@ -61,25 +61,25 @@
     },
     "it": {
         "prefix": "it",
-        "body": "it('should ${1:behave...}', () => {\n\t$0\n});",
+        "body": "it('${1:should }', () => {\n\t$0\n});",
         "description": "creates an it block",
         "scope": "source.js"
     },
     "it.only": {
         "prefix": "ito",
-        "body": "it.only('should ${1:behave...}', () => {\n\t$0\n});",
+        "body": "it.only('${1:should }', () => {\n\t$0\n});",
         "description": "creates an it block that runs only",
         "scope": "source.js"
     },
     "it.skip": {
         "prefix": "its",
-        "body": "it.skip('should ${1:behave...}', () => {\n\t$0\n});",
+        "body": "it.skip('${1:should }', () => {\n\t$0\n});",
         "description": "creates an it block that will be skipped",
         "scope": "source.js"
     },
     "it:async": {
         "prefix": "ita",
-        "body": "it('should ${1:behave...}', async () => {\n\t$0\n});",
+        "body": "it('${1:should }', async () => {\n\t$0\n});",
         "description": "creates an it block with async callback function",
         "scope": "source.js"
     },
@@ -95,7 +95,7 @@
             "describe('${1:Name of the group}', () => {\n",
             "\tlet ${2:cut};\n",
             "\tbeforeEach(() => {\n\t\t$2 = $3;\n\t});\n",
-            "\ttest('should ${4:behave...}', () => {",
+            "\ttest('${1:should }', () => {",
             "\t\texpect($2).toBe($0);",
             "\t});\n",
             "});"
@@ -105,25 +105,25 @@
     },
     "test": {
         "prefix": "test",
-        "body": "test('should ${1:behave...}', () => {\n\t$0\n});",
+        "body": "test('${1:should }', () => {\n\t$0\n});",
         "description": "creates a test block",
         "scope": "source.js"
     },
     "test.only": {
         "prefix": "testo",
-        "body": "test.only('should ${1:behave...}', () => {\n\t$0\n});",
+        "body": "test.only('${1:should }', () => {\n\t$0\n});",
         "description": "creates a test block  that runs only",
         "scope": "source.js"
     },
     "test.skip": {
         "prefix": "tests",
-        "body": "test.skip('should ${1:behave...}', () => {\n\t$0\n});",
+        "body": "test.skip('${1:should }', () => {\n\t$0\n});",
         "description": "creates a test block that will be skipped",
         "scope": "source.js"
     },
     "test:async": {
         "prefix": "testa",
-        "body": "test('should ${1:behave...}', async () => {\n\t$0\n});",
+        "body": "test('${1:should }', async () => {\n\t$0\n});",
         "description": "creates an test block with async callback function",
         "scope": "source.js"
     },
