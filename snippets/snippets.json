@@ -127,6 +127,18 @@
     "description": "creates an test block with async callback function",
     "scope": "source.js"
   },
+  "assertions": {
+    "prefix": "expas",
+    "body": "expect.assertions($1);$0",
+    "description": "expects the test to make the indicated number of assertions (useful for async)",
+    "scope": "source.js"
+  },
+  "hasAssertions": {
+    "prefix": "expha",
+    "body": "expect.hasAssertions();$0",
+    "description": "expects the test to make at least one assertion (useful for async)",
+    "scope": "source.js"
+  },
   "toBe": {
     "prefix": "tb",
     "body": "expect($1).toBe($0);",

@@ -40,6 +40,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `exp→`    | expect                             |
 | `expr→`   | expect.resolves                    |
 | `exprj→`  | expect.rejects                     |
+| `expas→`  | expect.assertions(count)           |
+| `expha→`  | expect.hasAssertions()             |
 | `tb→`     | toBe                               |
 | `tbct→`   | toBeCloseTo                        |
 | `tbd→`    | toBeDefined                        |
