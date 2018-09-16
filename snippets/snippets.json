@@ -308,7 +308,7 @@
     "scope": "source.js"
   },
   "toThrowErrorMatchingInlineSnapshot": {
-    "body": "expect(() => \n\t$0\n}).toThrowErrorMatchingInlineSnapshot();",
+    "body": "expect(() => {\n\t$0\n}).toThrowErrorMatchingInlineSnapshot();",
     "description": "expects that the method will throw an error matching the inline snapshot",
     "prefix": "ttemis",
     "scope": "source.js"
