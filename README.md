@@ -10,75 +10,75 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Globals
 
-| Trigger  | Content       |
+|  Trigger | Content       |
 | -------: | ------------- |
-| `desc→`  | describe      |
+|  `desc→` | describe      |
 | `desco→` | describe.only |
 | `descs→` | describe.skip |
-| `ae→`    | after each    |
-| `aa→`    | after all     |
-| `be→`    | before each   |
-| `ba→`    | before all    |
+|    `ae→` | after each    |
+|    `aa→` | after all     |
+|    `be→` | before each   |
+|    `ba→` | before all    |
 
 ### Tests
 
-| Trigger  | Content              |
+|  Trigger | Content              |
 | -------: | -------------------- |
-| `it→`    | it                   |
-| `ito→`   | it.only              |
-| `its→`   | it.skip              |
-| `ita→`   | it(..., async ...)   |
-| `test→`  | test                 |
+|    `it→` | it                   |
+|   `ito→` | it.only              |
+|   `its→` | it.skip              |
+|   `ita→` | it(..., async ...)   |
+|  `test→` | test                 |
 | `testo→` | test.only            |
 | `tests→` | test.skip            |
 | `testa→` | test(..., async ...) |
 
 ### Expect
 
-| Trigger   | Content                            |
+|   Trigger | Content                            |
 | --------: | ---------------------------------- |
-| `exp→`    | expect                             |
-| `expr→`   | expect.resolves                    |
-| `exprj→`  | expect.rejects                     |
-| `expas→`  | expect.assertions(count)           |
-| `expha→`  | expect.hasAssertions()             |
-| `tb→`     | toBe                               |
-| `tbct→`   | toBeCloseTo                        |
-| `tbd→`    | toBeDefined                        |
-| `tbf→`    | toBeFalsy                          |
-| `tbgt→`   | toBeGreaterThan                    |
-| `tbgte→`  | toBeGreaterThanOrEqual             |
-| `tbi→`    | toBeInstanceOf                     |
-| `tblt→`   | toBeLessThan                       |
-| `tblte→`  | toBeLessThanOrEqual                |
-| `tbn→`    | toBeNull                           |
-| `tbt→`    | toBeTruthy                         |
-| `tbu→`    | toBeUndefined                      |
-| `tc→`     | toContain                          |
-| `tce→`    | toContainEqual                     |
-| `te→`     | toEqual                            |
-| `tse→`    | toStrictEqual                      |
-| `thbc→`   | toHaveBeenCalled                   |
-| `thbct→`  | toHaveBeenCalledTimes              |
-| `thbcw→`  | toHaveBeenCalledWith               |
+|    `exp→` | expect                             |
+|   `expr→` | expect.resolves                    |
+|  `exprj→` | expect.rejects                     |
+|  `expas→` | expect.assertions(count)           |
+|  `expha→` | expect.hasAssertions()             |
+|     `tb→` | toBe                               |
+|   `tbct→` | toBeCloseTo                        |
+|    `tbd→` | toBeDefined                        |
+|    `tbf→` | toBeFalsy                          |
+|   `tbgt→` | toBeGreaterThan                    |
+|  `tbgte→` | toBeGreaterThanOrEqual             |
+|    `tbi→` | toBeInstanceOf                     |
+|   `tblt→` | toBeLessThan                       |
+|  `tblte→` | toBeLessThanOrEqual                |
+|    `tbn→` | toBeNull                           |
+|    `tbt→` | toBeTruthy                         |
+|    `tbu→` | toBeUndefined                      |
+|     `tc→` | toContain                          |
+|    `tce→` | toContainEqual                     |
+|     `te→` | toEqual                            |
+|    `tse→` | toStrictEqual                      |
+|   `thbc→` | toHaveBeenCalled                   |
+|  `thbct→` | toHaveBeenCalledTimes              |
+|  `thbcw→` | toHaveBeenCalledWith               |
 | `thblcw→` | toHaveBeenLastCalledWith           |
-| `thl→`    | toHaveLength                       |
-| `thp→`    | toHaveProperty                     |
-| `tm→`     | toMatch                            |
-| `tmo→`    | toMatchObject                      |
-| `tms→`    | toMatchSnapshot                    |
-| `tmis→`   | toMatchInlineSnapshot              |
-| `tt→`     | toThrow                            |
-| `tte→`    | toThrowError                       |
-| `ttems→`  | toThrowErrorMatchingSnapshot       |
+|    `thl→` | toHaveLength                       |
+|    `thp→` | toHaveProperty                     |
+|     `tm→` | toMatch                            |
+|    `tmo→` | toMatchObject                      |
+|    `tms→` | toMatchSnapshot                    |
+|   `tmis→` | toMatchInlineSnapshot              |
+|     `tt→` | toThrow                            |
+|    `tte→` | toThrowError                       |
+|  `ttems→` | toThrowErrorMatchingSnapshot       |
 | `ttemis→` | toThrowErrorMatchingInlineSnapshot |
 
 ### Templates
 
 | Trigger | Content                 |
 | ------: | ----------------------- |
-| `cut→`  | test a class under test |
-| `jfn→`  | jest.fn                 |
+|  `cut→` | test a class under test |
+|  `jfn→` | jest.fn                 |
 
 ## Settings
 
