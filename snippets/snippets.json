@@ -1,298 +1,298 @@
 {
-    "afterAll": {
-        "prefix": "aa",
-        "body": "afterAll(() => {\n\t$0\n});",
-        "description": "afterAll function is called once after all specs",
-        "scope": "source.js"
-    },
-    "afterEach": {
-        "prefix": "ae",
-        "body": "afterEach(() => {\n\t$0\n});",
-        "description": "afterEach function is called once after each spec",
-        "scope": "source.js"
-    },
-    "beforeAll": {
-        "prefix": "ba",
-        "body": "beforeAll(() => {\n\t$0\n});",
-        "description": "beforeAll function is called once before all specs",
-        "scope": "source.js"
-    },
-    "beforeEach": {
-        "prefix": "be",
-        "body": "beforeEach(() => {\n\t$0\n});",
-        "description": "beforeEach function is called once before each spec",
-        "scope": "source.js"
-    },
-    "describe": {
-        "prefix": "desc",
-        "body": "describe('${1:Name of the group}', () => {\n\t$0\n});",
-        "description": "creates a describe block",
-        "scope": "source.js"
-    },
-    "describe.only": {
-        "prefix": "desco",
-        "body": "describe.only('${1:Name of the group}', () => {\n\t$0\n});",
-        "description": "creates a describe block that runs only",
-        "scope": "source.js"
-    },
-    "describe.skip": {
-        "prefix": "descs",
-        "body": "describe.skip('${1:Name of the group}', () => {\n\t$0\n});",
-        "description": "creates a describe block that will be skipped",
-        "scope": "source.js"
-    },
-    "expect": {
-        "prefix": "exp",
-        "body": "expect($0)",
-        "description": "expect actual value",
-        "scope": "source.js"
-    },
-    "expect.resolves": {
-        "prefix": "expr",
-        "body": "expect($1).resolves$0",
-        "description": "expect promise resolves to",
-        "scope": "source.js"
-    },
-    "expect.rejects": {
-        "prefix": "exprj",
-        "body": "expect($1).rejects$0",
-        "description": "expect promise rejects to",
-        "scope": "source.js"
-    },
-    "it": {
-        "prefix": "it",
-        "body": "it('${1:should }', () => {\n\t$0\n});",
-        "description": "creates an it block",
-        "scope": "source.js"
-    },
-    "it.only": {
-        "prefix": "ito",
-        "body": "it.only('${1:should }', () => {\n\t$0\n});",
-        "description": "creates an it block that runs only",
-        "scope": "source.js"
-    },
-    "it.skip": {
-        "prefix": "its",
-        "body": "it.skip('${1:should }', () => {\n\t$0\n});",
-        "description": "creates an it block that will be skipped",
-        "scope": "source.js"
-    },
-    "it:async": {
-        "prefix": "ita",
-        "body": "it('${1:should }', async () => {\n\t$0\n});",
-        "description": "creates an it block with async callback function",
-        "scope": "source.js"
-    },
-    "jest.fn": {
-        "prefix": "jfn",
-        "body": "jest.fn($0)",
-        "description": "creates jest.fn()",
-        "scope": "source.js"
-    },
-    "template:cut": {
-        "prefix": "cut",
-        "body": [
-            "describe('${1:Name of the group}', () => {\n",
-            "\tlet ${2:cut};\n",
-            "\tbeforeEach(() => {\n\t\t$2 = $3;\n\t});\n",
-            "\ttest('${1:should }', () => {",
-            "\t\texpect($2).toBe($0);",
-            "\t});\n",
-            "});"
-        ],
-        "description": "creates a template to test a class under test",
-        "scope": "source.js"
-    },
-    "test": {
-        "prefix": "test",
-        "body": "test('${1:should }', () => {\n\t$0\n});",
-        "description": "creates a test block",
-        "scope": "source.js"
-    },
-    "test.only": {
-        "prefix": "testo",
-        "body": "test.only('${1:should }', () => {\n\t$0\n});",
-        "description": "creates a test block  that runs only",
-        "scope": "source.js"
-    },
-    "test.skip": {
-        "prefix": "tests",
-        "body": "test.skip('${1:should }', () => {\n\t$0\n});",
-        "description": "creates a test block that will be skipped",
-        "scope": "source.js"
-    },
-    "test:async": {
-        "prefix": "testa",
-        "body": "test('${1:should }', async () => {\n\t$0\n});",
-        "description": "creates an test block with async callback function",
-        "scope": "source.js"
-    },
-    "toBe": {
-        "prefix": "tb",
-        "body": "expect($1).toBe($0);",
-        "description": "expects the first argument to be equal with the second one",
-        "scope": "source.js"
-    },
-    "toBeCloseTo": {
-        "prefix": "tbct",
-        "body": "expect($1).toBeCloseTo(${2:number}, ${3:delta});$0",
-        "description": "expects the first argument to be close to the second one base on the delta",
-        "scope": "source.js"
-    },
-    "toBeDefined": {
-        "prefix": "tbd",
-        "body": "expect($1).toBeDefined();$0",
-        "description": "expects the argument is defined",
-        "scope": "source.js"
-    },
-    "toBeFalsy": {
-        "prefix": "tbf",
-        "body": "expect($1).toBeFalsy();$0",
-        "description": "expects the argument is falsy",
-        "scope": "source.js"
-    },
-    "toBeGreaterThan": {
-        "prefix": "tbgt",
-        "body": "expect($1).toBeGreaterThan($0);",
-        "description": "expects the argument is greater than or equal",
-        "scope": "source.js"
-    },
-    "toBeGreaterThanOrEqual": {
-        "prefix": "tbgte",
-        "body": "expect($1).toBeGreaterThanOrEqual($0);",
-        "description": "expects the argument is greater than",
-        "scope": "source.js"
-    },
-    "toBeInstanceOf": {
-        "prefix": "tbi",
-        "body": "expect($1).toBeInstanceOf($0);",
-        "description": "expects the argument is less than",
-        "scope": "source.js"
-    },
-    "toBeLessThan": {
-        "prefix": "tblt",
-        "body": "expect($1).toBeLessThan($0);",
-        "description": "expects the argument is less than",
-        "scope": "source.js"
-    },
-    "toBeLessThanOrEqual": {
-        "prefix": "tblte",
-        "body": "expect($1).toBeLessThanOrEqual($0);",
-        "description": "expects the argument is less than or equal",
-        "scope": "source.js"
-    },
-    "toBeNull": {
-        "prefix": "tbn",
-        "body": "expect($1).toBeNull();$0",
-        "description": "expects the argument is null",
-        "scope": "source.js"
-    },
-    "toBeTruthy": {
-        "prefix": "tbt",
-        "body": "expect($1).toBeTruthy();$0",
-        "description": "expects the argument is truthy",
-        "scope": "source.js"
-    },
-    "toBeUndefined": {
-        "prefix": "tbu",
-        "body": "expect($1).toBeUndefined();$0",
-        "description": "expects the argument is undefined",
-        "scope": "source.js"
-    },
-    "toContain": {
-        "prefix": "tc",
-        "body": "expect(${1:list}).toContain($0);",
-        "description": "expects the list contains the item (===)",
-        "scope": "source.js"
-    },
-    "toContainEqual": {
-        "prefix": "tce",
-        "body": "expect(${1:list}).toContainEqual($0);",
-        "description": "expects the list contains the item (equals)",
-        "scope": "source.js"
-    },
-    "toEqual": {
-        "prefix": "te",
-        "body": "expect($1).toEqual($0);",
-        "description": "expects the first argument to be equal with the second one",
-        "scope": "source.js"
-    },
-    "toHaveBeenCalled": {
-        "prefix": "thbc",
-        "body": "expect($1).toHaveBeenCalled();$0",
-        "description": "returns true if the spy was called",
-        "scope": "source.js"
-    },
-    "toHaveBeenCalledTimes": {
-        "prefix": "thbct",
-        "body": "expect($1).toHaveBeenCalledTimes($0);",
-        "description": "returns true if the spy has been called given times",
-        "scope": "source.js"
-    },
-    "toHaveBeenCalledWith": {
-        "prefix": "thbcw",
-        "body": "expect($1).toHaveBeenCalledWith($0);",
-        "description": "returns true if the spy has been called with",
-        "scope": "source.js"
-    },
-    "toHaveBeenLastCalledWith": {
-        "prefix": "thblcw",
-        "body": "expect($1).toHaveBeenLastCalledWith($0);",
-        "description": "returns true if the spy has been last called with",
-        "scope": "source.js"
-    },
-    "toHaveLength": {
-        "prefix": "thl",
-        "body": "expect($1).toHaveLength($0);",
-        "description": "expects the object to have length",
-        "scope": "source.js"
-    },
-    "toHaveProperty": {
-        "prefix": "thp",
-        "body": "expect($1).toHaveProperty(${2:keyPath}, ${3:value});$0",
-        "description": "returns true if the argument matches the second object",
-        "scope": "source.js"
-    },
-    "toMatch": {
-        "prefix": "tm",
-        "body": "expect($1).toMatch($0);",
-        "description": "returns true if the argument matches the second value",
-        "scope": "source.js"
-    },
-    "toMatchObject": {
-        "prefix": "tmo",
-        "body": "expect($1).toMatchObject($0);",
-        "description": "returns true if the argument matches the second object",
-        "scope": "source.js"
-    },
-    "toMatchSnapshot": {
-        "prefix": "tms",
-        "body": "expect($1).toMatchSnapshot($0);",
-        "description": "returns true if the argument matches the most recent snapshot",
-        "scope": "source.js"
-    },
-    "toStrictEqual": {
-        "prefix": "tse",
-        "body": "expect($1).toStrictEqual($0);",
-        "description": "expects the first argument to be strictly equal with the second one",
-        "scope": "source.js"
-    },
-    "toThrow": {
-        "prefix": "tt",
-        "body": "expect(() => {\n\t$0\n}).toThrow($1);",
-        "description": "expects that the method will throw an error",
-        "scope": "source.js"
-    },
-    "toThrowError": {
-        "prefix": "tte",
-        "body": "expect(() => {\n\t$0\n}).toThrowError($1);",
-        "description": "expects that the method will throw an error",
-        "scope": "source.js"
-    },
-    "toThrowErrorMatchingSnapshot": {
-        "prefix": "ttems",
-        "body": "expect(() => {\n\t$0\n}).toThrowErrorMatchingSnapshot();",
-        "description": "expects that the method will throw an error mathing the snapshpot",
-        "scope": "source.js"
-    }
+  "afterAll": {
+    "prefix": "aa",
+    "body": "afterAll(() => {\n\t$0\n});",
+    "description": "afterAll function is called once after all specs",
+    "scope": "source.js"
+  },
+  "afterEach": {
+    "prefix": "ae",
+    "body": "afterEach(() => {\n\t$0\n});",
+    "description": "afterEach function is called once after each spec",
+    "scope": "source.js"
+  },
+  "beforeAll": {
+    "prefix": "ba",
+    "body": "beforeAll(() => {\n\t$0\n});",
+    "description": "beforeAll function is called once before all specs",
+    "scope": "source.js"
+  },
+  "beforeEach": {
+    "prefix": "be",
+    "body": "beforeEach(() => {\n\t$0\n});",
+    "description": "beforeEach function is called once before each spec",
+    "scope": "source.js"
+  },
+  "describe": {
+    "prefix": "desc",
+    "body": "describe('${1:Name of the group}', () => {\n\t$0\n});",
+    "description": "creates a describe block",
+    "scope": "source.js"
+  },
+  "describe.only": {
+    "prefix": "desco",
+    "body": "describe.only('${1:Name of the group}', () => {\n\t$0\n});",
+    "description": "creates a describe block that runs only",
+    "scope": "source.js"
+  },
+  "describe.skip": {
+    "prefix": "descs",
+    "body": "describe.skip('${1:Name of the group}', () => {\n\t$0\n});",
+    "description": "creates a describe block that will be skipped",
+    "scope": "source.js"
+  },
+  "expect": {
+    "prefix": "exp",
+    "body": "expect($0)",
+    "description": "expect actual value",
+    "scope": "source.js"
+  },
+  "expect.resolves": {
+    "prefix": "expr",
+    "body": "expect($1).resolves$0",
+    "description": "expect promise resolves to",
+    "scope": "source.js"
+  },
+  "expect.rejects": {
+    "prefix": "exprj",
+    "body": "expect($1).rejects$0",
+    "description": "expect promise rejects to",
+    "scope": "source.js"
+  },
+  "it": {
+    "prefix": "it",
+    "body": "it('${1:should }', () => {\n\t$0\n});",
+    "description": "creates an it block",
+    "scope": "source.js"
+  },
+  "it.only": {
+    "prefix": "ito",
+    "body": "it.only('${1:should }', () => {\n\t$0\n});",
+    "description": "creates an it block that runs only",
+    "scope": "source.js"
+  },
+  "it.skip": {
+    "prefix": "its",
+    "body": "it.skip('${1:should }', () => {\n\t$0\n});",
+    "description": "creates an it block that will be skipped",
+    "scope": "source.js"
+  },
+  "it:async": {
+    "prefix": "ita",
+    "body": "it('${1:should }', async () => {\n\t$0\n});",
+    "description": "creates an it block with async callback function",
+    "scope": "source.js"
+  },
+  "jest.fn": {
+    "prefix": "jfn",
+    "body": "jest.fn($0)",
+    "description": "creates jest.fn()",
+    "scope": "source.js"
+  },
+  "template:cut": {
+    "prefix": "cut",
+    "body": [
+      "describe('${1:Name of the group}', () => {\n",
+      "\tlet ${2:cut};\n",
+      "\tbeforeEach(() => {\n\t\t$2 = $3;\n\t});\n",
+      "\ttest('${1:should }', () => {",
+      "\t\texpect($2).toBe($0);",
+      "\t});\n",
+      "});"
+    ],
+    "description": "creates a template to test a class under test",
+    "scope": "source.js"
+  },
+  "test": {
+    "prefix": "test",
+    "body": "test('${1:should }', () => {\n\t$0\n});",
+    "description": "creates a test block",
+    "scope": "source.js"
+  },
+  "test.only": {
+    "prefix": "testo",
+    "body": "test.only('${1:should }', () => {\n\t$0\n});",
+    "description": "creates a test block  that runs only",
+    "scope": "source.js"
+  },
+  "test.skip": {
+    "prefix": "tests",
+    "body": "test.skip('${1:should }', () => {\n\t$0\n});",
+    "description": "creates a test block that will be skipped",
+    "scope": "source.js"
+  },
+  "test:async": {
+    "prefix": "testa",
+    "body": "test('${1:should }', async () => {\n\t$0\n});",
+    "description": "creates an test block with async callback function",
+    "scope": "source.js"
+  },
+  "toBe": {
+    "prefix": "tb",
+    "body": "expect($1).toBe($0);",
+    "description": "expects the first argument to be equal with the second one",
+    "scope": "source.js"
+  },
+  "toBeCloseTo": {
+    "prefix": "tbct",
+    "body": "expect($1).toBeCloseTo(${2:number}, ${3:delta});$0",
+    "description": "expects the first argument to be close to the second one base on the delta",
+    "scope": "source.js"
+  },
+  "toBeDefined": {
+    "prefix": "tbd",
+    "body": "expect($1).toBeDefined();$0",
+    "description": "expects the argument is defined",
+    "scope": "source.js"
+  },
+  "toBeFalsy": {
+    "prefix": "tbf",
+    "body": "expect($1).toBeFalsy();$0",
+    "description": "expects the argument is falsy",
+    "scope": "source.js"
+  },
+  "toBeGreaterThan": {
+    "prefix": "tbgt",
+    "body": "expect($1).toBeGreaterThan($0);",
+    "description": "expects the argument is greater than or equal",
+    "scope": "source.js"
+  },
+  "toBeGreaterThanOrEqual": {
+    "prefix": "tbgte",
+    "body": "expect($1).toBeGreaterThanOrEqual($0);",
+    "description": "expects the argument is greater than",
+    "scope": "source.js"
+  },
+  "toBeInstanceOf": {
+    "prefix": "tbi",
+    "body": "expect($1).toBeInstanceOf($0);",
+    "description": "expects the argument is less than",
+    "scope": "source.js"
+  },
+  "toBeLessThan": {
+    "prefix": "tblt",
+    "body": "expect($1).toBeLessThan($0);",
+    "description": "expects the argument is less than",
+    "scope": "source.js"
+  },
+  "toBeLessThanOrEqual": {
+    "prefix": "tblte",
+    "body": "expect($1).toBeLessThanOrEqual($0);",
+    "description": "expects the argument is less than or equal",
+    "scope": "source.js"
+  },
+  "toBeNull": {
+    "prefix": "tbn",
+    "body": "expect($1).toBeNull();$0",
+    "description": "expects the argument is null",
+    "scope": "source.js"
+  },
+  "toBeTruthy": {
+    "prefix": "tbt",
+    "body": "expect($1).toBeTruthy();$0",
+    "description": "expects the argument is truthy",
+    "scope": "source.js"
+  },
+  "toBeUndefined": {
+    "prefix": "tbu",
+    "body": "expect($1).toBeUndefined();$0",
+    "description": "expects the argument is undefined",
+    "scope": "source.js"
+  },
+  "toContain": {
+    "prefix": "tc",
+    "body": "expect(${1:list}).toContain($0);",
+    "description": "expects the list contains the item (===)",
+    "scope": "source.js"
+  },
+  "toContainEqual": {
+    "prefix": "tce",
+    "body": "expect(${1:list}).toContainEqual($0);",
+    "description": "expects the list contains the item (equals)",
+    "scope": "source.js"
+  },
+  "toEqual": {
+    "prefix": "te",
+    "body": "expect($1).toEqual($0);",
+    "description": "expects the first argument to be equal with the second one",
+    "scope": "source.js"
+  },
+  "toHaveBeenCalled": {
+    "prefix": "thbc",
+    "body": "expect($1).toHaveBeenCalled();$0",
+    "description": "returns true if the spy was called",
+    "scope": "source.js"
+  },
+  "toHaveBeenCalledTimes": {
+    "prefix": "thbct",
+    "body": "expect($1).toHaveBeenCalledTimes($0);",
+    "description": "returns true if the spy has been called given times",
+    "scope": "source.js"
+  },
+  "toHaveBeenCalledWith": {
+    "prefix": "thbcw",
+    "body": "expect($1).toHaveBeenCalledWith($0);",
+    "description": "returns true if the spy has been called with",
+    "scope": "source.js"
+  },
+  "toHaveBeenLastCalledWith": {
+    "prefix": "thblcw",
+    "body": "expect($1).toHaveBeenLastCalledWith($0);",
+    "description": "returns true if the spy has been last called with",
+    "scope": "source.js"
+  },
+  "toHaveLength": {
+    "prefix": "thl",
+    "body": "expect($1).toHaveLength($0);",
+    "description": "expects the object to have length",
+    "scope": "source.js"
+  },
+  "toHaveProperty": {
+    "prefix": "thp",
+    "body": "expect($1).toHaveProperty(${2:keyPath}, ${3:value});$0",
+    "description": "returns true if the argument matches the second object",
+    "scope": "source.js"
+  },
+  "toMatch": {
+    "prefix": "tm",
+    "body": "expect($1).toMatch($0);",
+    "description": "returns true if the argument matches the second value",
+    "scope": "source.js"
+  },
+  "toMatchObject": {
+    "prefix": "tmo",
+    "body": "expect($1).toMatchObject($0);",
+    "description": "returns true if the argument matches the second object",
+    "scope": "source.js"
+  },
+  "toMatchSnapshot": {
+    "prefix": "tms",
+    "body": "expect($1).toMatchSnapshot($0);",
+    "description": "returns true if the argument matches the most recent snapshot",
+    "scope": "source.js"
+  },
+  "toStrictEqual": {
+    "prefix": "tse",
+    "body": "expect($1).toStrictEqual($0);",
+    "description": "expects the first argument to be strictly equal with the second one",
+    "scope": "source.js"
+  },
+  "toThrow": {
+    "prefix": "tt",
+    "body": "expect(() => {\n\t$0\n}).toThrow($1);",
+    "description": "expects that the method will throw an error",
+    "scope": "source.js"
+  },
+  "toThrowError": {
+    "prefix": "tte",
+    "body": "expect(() => {\n\t$0\n}).toThrowError($1);",
+    "description": "expects that the method will throw an error",
+    "scope": "source.js"
+  },
+  "toThrowErrorMatchingSnapshot": {
+    "prefix": "ttems",
+    "body": "expect(() => {\n\t$0\n}).toThrowErrorMatchingSnapshot();",
+    "description": "expects that the method will throw an error mathing the snapshpot",
+    "scope": "source.js"
+  }
 }

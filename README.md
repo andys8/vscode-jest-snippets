@@ -10,71 +10,71 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Globals
 
-| Trigger      | Content |
-| -------:     | ------- |
-| `desc→`      | describe |
-| `desco→`     | describe.only |
-| `descs→`     | describe.skip |
-| `ae→`        | after each |
-| `aa→`        | after all |
-| `be→`        | before each |
-| `ba→`        | before all |
+|  Trigger | Content       |
+| -------: | ------------- |
+|  `desc→` | describe      |
+| `desco→` | describe.only |
+| `descs→` | describe.skip |
+|    `ae→` | after each    |
+|    `aa→` | after all     |
+|    `be→` | before each   |
+|    `ba→` | before all    |
 
 ### Tests
 
-| Trigger      | Content |
-| -------:     | ------- |
-| `it→`        | it |
-| `ito→`       | it.only |
-| `its→`       | it.skip |
-| `ita→`       | it(..., async ...) |
-| `test→`      | test |
-| `testo→`     | test.only |
-| `tests→`     | test.skip |
-| `testa→`     | test(..., async ...) |
+|  Trigger | Content              |
+| -------: | -------------------- |
+|    `it→` | it                   |
+|   `ito→` | it.only              |
+|   `its→` | it.skip              |
+|   `ita→` | it(..., async ...)   |
+|  `test→` | test                 |
+| `testo→` | test.only            |
+| `tests→` | test.skip            |
+| `testa→` | test(..., async ...) |
 
 ### Expect
 
-| Trigger      | Content |
-| -------:     | ------- |
-| `exp→`       | expect |
-| `expr→`      | expect.resolves |
-| `exprj→`     | expect.rejects |
-| `tb→`        | toBe |
-| `tbct→`      | toBeCloseTo |
-| `tbd→`       | toBeDefined |
-| `tbf→`       | toBeFalsy |
-| `tbgt→`      | toBeGreaterThan |
-| `tbgte→`     | toBeGreaterThanOrEqual |
-| `tbi→`       | toBeInstanceOf |
-| `tblt→`      | toBeLessThan |
-| `tblte→`     | toBeLessThanOrEqual |
-| `tbn→`       | toBeNull |
-| `tbt→`       | toBeTruthy |
-| `tbu→`       | toBeUndefined |
-| `tc→`        | toContain |
-| `tce→`       | toContainEqual |
-| `te→`        | toEqual |
-| `tse→`       | toStrictEqual |
-| `thbc→`      | toHaveBeenCalled |
-| `thbct→`     | toHaveBeenCalledTimes |
-| `thbcw→`     | toHaveBeenCalledWith |
-| `thblcw→`    | toHaveBeenLastCalledWith |
-| `thl→`       | toHaveLength |
-| `thp→`       | toHaveProperty |
-| `tm→`        | toMatch |
-| `tmo→`       | toMatchObject |
-| `tms→`       | toMatchSnapshot |
-| `tt→`        | toThrow |
-| `tte→`       | toThrowError |
-| `ttems→`     | toThrowErrorMatchingSnapshot |
+|   Trigger | Content                      |
+| --------: | ---------------------------- |
+|    `exp→` | expect                       |
+|   `expr→` | expect.resolves              |
+|  `exprj→` | expect.rejects               |
+|     `tb→` | toBe                         |
+|   `tbct→` | toBeCloseTo                  |
+|    `tbd→` | toBeDefined                  |
+|    `tbf→` | toBeFalsy                    |
+|   `tbgt→` | toBeGreaterThan              |
+|  `tbgte→` | toBeGreaterThanOrEqual       |
+|    `tbi→` | toBeInstanceOf               |
+|   `tblt→` | toBeLessThan                 |
+|  `tblte→` | toBeLessThanOrEqual          |
+|    `tbn→` | toBeNull                     |
+|    `tbt→` | toBeTruthy                   |
+|    `tbu→` | toBeUndefined                |
+|     `tc→` | toContain                    |
+|    `tce→` | toContainEqual               |
+|     `te→` | toEqual                      |
+|    `tse→` | toStrictEqual                |
+|   `thbc→` | toHaveBeenCalled             |
+|  `thbct→` | toHaveBeenCalledTimes        |
+|  `thbcw→` | toHaveBeenCalledWith         |
+| `thblcw→` | toHaveBeenLastCalledWith     |
+|    `thl→` | toHaveLength                 |
+|    `thp→` | toHaveProperty               |
+|     `tm→` | toMatch                      |
+|    `tmo→` | toMatchObject                |
+|    `tms→` | toMatchSnapshot              |
+|     `tt→` | toThrow                      |
+|    `tte→` | toThrowError                 |
+|  `ttems→` | toThrowErrorMatchingSnapshot |
 
 ### Templates
 
-| Trigger      | Content |
-| -------:     | ------- |
-| `cut→`       | test a class under test |
-| `jfn→`       | jest.fn |
+| Trigger | Content                 |
+| ------: | ----------------------- |
+|  `cut→` | test a class under test |
+|  `jfn→` | jest.fn                 |
 
 ## Settings
 
@@ -86,5 +86,5 @@ The `editor.snippetSuggestions` setting in vscode `settings.json` will show snip
 
 ## Credits
 
-* Thanks to [xabikos](https://github.com/xabikos) for [vscode-jasmine](https://github.com/xabikos/vscode-jasmine)
-* Thanks to [martinlechner1](https://github.com/martinlechner1) for contribution
+- Thanks to [xabikos](https://github.com/xabikos) for [vscode-jasmine](https://github.com/xabikos/vscode-jasmine)
+- Thanks to [martinlechner1](https://github.com/martinlechner1) for contribution
