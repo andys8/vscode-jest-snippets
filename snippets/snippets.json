@@ -47,6 +47,18 @@
     "prefix": "exp",
     "scope": "source.js"
   },
+  "expect.assertions": {
+    "body": "expect.assertions($0);",
+    "description": "expects the test to make the indicated number of assertions (useful for async)",
+    "prefix": "expas",
+    "scope": "source.js"
+  },
+  "expect.hasAssertions": {
+    "body": "expect.hasAssertions();$0",
+    "description": "expects the test to make at least one assertion (useful for async)",
+    "prefix": "expha",
+    "scope": "source.js"
+  },
   "expect.rejects": {
     "body": "expect($1).rejects$0",
     "description": "expect promise rejects to",
@@ -259,6 +271,12 @@
     "prefix": "tm",
     "scope": "source.js"
   },
+  "toMatchInlineSnapshot": {
+    "body": "expect($1).toMatchInlineSnapshot($0);",
+    "description": "returns true if the argument matches the most recent inline snapshot",
+    "prefix": "tmis",
+    "scope": "source.js"
+  },
   "toMatchObject": {
     "body": "expect($1).toMatchObject($0);",
     "description": "returns true if the argument matches the second object",
@@ -287,6 +305,12 @@
     "body": "expect(() => {\n\t$0\n}).toThrowError($1);",
     "description": "expects that the method will throw an error",
     "prefix": "tte",
+    "scope": "source.js"
+  },
+  "toThrowErrorMatchingInlineSnapshot": {
+    "body": "expect(() => \n\t$0\n}).toThrowErrorMatchingInlineSnapshot();",
+    "description": "expects that the method will throw an error matching the inline snapshot",
+    "prefix": "ttemis",
     "scope": "source.js"
   },
   "toThrowErrorMatchingSnapshot": {

@@ -35,39 +35,43 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Expect
 
-|   Trigger | Content                      |
-| --------: | ---------------------------- |
-|    `exp→` | expect                       |
-|   `expr→` | expect.resolves              |
-|  `exprj→` | expect.rejects               |
-|     `tb→` | toBe                         |
-|   `tbct→` | toBeCloseTo                  |
-|    `tbd→` | toBeDefined                  |
-|    `tbf→` | toBeFalsy                    |
-|   `tbgt→` | toBeGreaterThan              |
-|  `tbgte→` | toBeGreaterThanOrEqual       |
-|    `tbi→` | toBeInstanceOf               |
-|   `tblt→` | toBeLessThan                 |
-|  `tblte→` | toBeLessThanOrEqual          |
-|    `tbn→` | toBeNull                     |
-|    `tbt→` | toBeTruthy                   |
-|    `tbu→` | toBeUndefined                |
-|     `tc→` | toContain                    |
-|    `tce→` | toContainEqual               |
-|     `te→` | toEqual                      |
-|    `tse→` | toStrictEqual                |
-|   `thbc→` | toHaveBeenCalled             |
-|  `thbct→` | toHaveBeenCalledTimes        |
-|  `thbcw→` | toHaveBeenCalledWith         |
-| `thblcw→` | toHaveBeenLastCalledWith     |
-|    `thl→` | toHaveLength                 |
-|    `thp→` | toHaveProperty               |
-|     `tm→` | toMatch                      |
-|    `tmo→` | toMatchObject                |
-|    `tms→` | toMatchSnapshot              |
-|     `tt→` | toThrow                      |
-|    `tte→` | toThrowError                 |
-|  `ttems→` | toThrowErrorMatchingSnapshot |
+|   Trigger | Content                            |
+| --------: | ---------------------------------- |
+|    `exp→` | expect                             |
+|   `expr→` | expect.resolves                    |
+|  `exprj→` | expect.rejects                     |
+|  `expas→` | expect.assertions(count)           |
+|  `expha→` | expect.hasAssertions()             |
+|     `tb→` | toBe                               |
+|   `tbct→` | toBeCloseTo                        |
+|    `tbd→` | toBeDefined                        |
+|    `tbf→` | toBeFalsy                          |
+|   `tbgt→` | toBeGreaterThan                    |
+|  `tbgte→` | toBeGreaterThanOrEqual             |
+|    `tbi→` | toBeInstanceOf                     |
+|   `tblt→` | toBeLessThan                       |
+|  `tblte→` | toBeLessThanOrEqual                |
+|    `tbn→` | toBeNull                           |
+|    `tbt→` | toBeTruthy                         |
+|    `tbu→` | toBeUndefined                      |
+|     `tc→` | toContain                          |
+|    `tce→` | toContainEqual                     |
+|     `te→` | toEqual                            |
+|    `tse→` | toStrictEqual                      |
+|   `thbc→` | toHaveBeenCalled                   |
+|  `thbct→` | toHaveBeenCalledTimes              |
+|  `thbcw→` | toHaveBeenCalledWith               |
+| `thblcw→` | toHaveBeenLastCalledWith           |
+|    `thl→` | toHaveLength                       |
+|    `thp→` | toHaveProperty                     |
+|     `tm→` | toMatch                            |
+|    `tmo→` | toMatchObject                      |
+|    `tms→` | toMatchSnapshot                    |
+|   `tmis→` | toMatchInlineSnapshot              |
+|     `tt→` | toThrow                            |
+|    `tte→` | toThrowError                       |
+|  `ttems→` | toThrowErrorMatchingSnapshot       |
+| `ttemis→` | toThrowErrorMatchingInlineSnapshot |
 
 ### Templates
 
