@@ -6,6 +6,9 @@
     "publisher": "andys8",
     "icon": "images/jest_snippets_icon.png",
     "license": "MIT",
+    "scripts": {
+        "format": "prettier --write *.md snippets/*"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/andys8/vscode-jest-snippets"
@@ -39,5 +42,8 @@
                 "path": "./snippets/snippets.json"
             }
         ]
+    },
+    "devDependencies": {
+        "prettier": "^1.14.2"
     }
 }
