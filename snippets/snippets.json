@@ -32,7 +32,7 @@
   "describe.each": {
     "body": [
       "describe.each([${1:[1, 2], [2, 4]}])(",
-      "\t'${2:double(%i)}',",
+      "\t'${2:double(%d)}',",
       "\t(${3:input, expected}) => {",
       "\t\ttest(`returns \\${expected}`, () => {",
       "\t\t\t${4:expect(double(input)).toBe(expected);}",
@@ -95,7 +95,7 @@
   "it.each": {
     "body": [
       "it.each([${1:[1, 2], [2, 4]}])(",
-      "\t'${2:double(%i)}',",
+      "\t'${2:double(%d)}',",
       "\t(${3:input, expected}) => {",
       "\t\t${0:expect(double(input)).toBe(expected);}",
       "\t}",
@@ -152,7 +152,7 @@
   "test.each": {
     "body": [
       "test.each([${1:[1, 2], [2, 4]}])(",
-      "\t'${2:double(%i)}',",
+      "\t'${2:double(%d)}',",
       "\t(${3:input, expected}) => {",
       "\t\t${0:expect(double(input)).toBe(expected);}",
       "\t}",
