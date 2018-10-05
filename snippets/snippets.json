@@ -77,6 +77,19 @@
     "prefix": "it",
     "scope": "source.js"
   },
+  "it.each": {
+    "body": [
+      "test.each([${1:[1, 2], [2, 4]}])(",
+      "\t'${2:double(%i)}',",
+      "\t(${3:input, expected}) => {",
+      "\t\t${0:expect(double(input)).toBe(expected);}",
+      "\t}",
+      ");"
+    ],
+    "description": "creates an test block with different test data sets",
+    "prefix": "it",
+    "scope": "source.js"
+  },
   "it.only": {
     "body": "it.only('${1:should }', () => {\n\t$0\n});",
     "description": "creates an it block that runs only",
@@ -119,6 +132,19 @@
     "body": "test('${1:should }', () => {\n\t$0\n});",
     "description": "creates a test block",
     "prefix": "test",
+    "scope": "source.js"
+  },
+  "test.each": {
+    "body": [
+      "test.each([${1:[1, 2], [2, 4]}])(",
+      "\t'${2:double(%i)}',",
+      "\t(${3:input, expected}) => {",
+      "\t\t${0:expect(double(input)).toBe(expected);}",
+      "\t}",
+      ");"
+    ],
+    "description": "creates an test block with different test data sets",
+    "prefix": "teste",
     "scope": "source.js"
   },
   "test.only": {

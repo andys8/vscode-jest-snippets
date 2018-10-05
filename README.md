@@ -27,10 +27,12 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |    `it→` | it                   |
 |   `ito→` | it.only              |
 |   `its→` | it.skip              |
+|   `ite→` | it.each              |
 |   `ita→` | it(..., async ...)   |
 |  `test→` | test                 |
 | `testo→` | test.only            |
 | `tests→` | test.skip            |
+| `teste→` | test.each            |
 | `testa→` | test(..., async ...) |
 
 ### Expect
