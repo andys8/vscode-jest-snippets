@@ -79,15 +79,15 @@
   },
   "it.each": {
     "body": [
-      "test.each([${1:[1, 2], [2, 4]}])(",
+      "it.each([${1:[1, 2], [2, 4]}])(",
       "\t'${2:double(%i)}',",
       "\t(${3:input, expected}) => {",
       "\t\t${0:expect(double(input)).toBe(expected);}",
       "\t}",
       ");"
     ],
-    "description": "creates an test block with different test data sets",
-    "prefix": "it",
+    "description": "creates an it block with different test data sets",
+    "prefix": "ite",
     "scope": "source.js"
   },
   "it.only": {
