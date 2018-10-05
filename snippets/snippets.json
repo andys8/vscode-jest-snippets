@@ -29,6 +29,21 @@
     "prefix": "desc",
     "scope": "source.js"
   },
+  "describe.each": {
+    "body": [
+      "describe.each([${1:[1, 2], [2, 4]}])(",
+      "\t'${2:double(%i)}',",
+      "\t(${3:input, expected}) => {",
+      "\t\ttest(`returns \\${expected}`, () => {",
+      "\t\t\t${4:expect(double(input)).toBe(expected);}",
+      "\t\t});",
+      "\t}",
+      ");"
+    ],
+    "description": "creates a describe block with different test data sets",
+    "prefix": "desce",
+    "scope": "source.js"
+  },
   "describe.only": {
     "body": "describe.only('${1:Name of the group}', () => {\n\t$0\n});",
     "description": "creates a describe block that runs only",

@@ -15,6 +15,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  `desc→` | describe      |
 | `desco→` | describe.only |
 | `descs→` | describe.skip |
+| `desce→` | describe.each |
 |    `ae→` | after each    |
 |    `aa→` | after all     |
 |    `be→` | before each   |
