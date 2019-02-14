@@ -117,6 +117,12 @@
     "prefix": "its",
     "scope": "source.js"
   },
+  "it.todo": {
+    "body": "it.todo('${1:should }');",
+    "description": "creates a test placeholder",
+    "prefix": "itt",
+    "scope": "source.js"
+  },
   "it:async": {
     "body": "it('${1:should }', async () => {\n\t$0\n});",
     "description": "creates an it block with async callback function",
@@ -172,6 +178,12 @@
     "body": "test.skip('${1:should }', () => {\n\t$0\n});",
     "description": "creates a test block that will be skipped",
     "prefix": "tests",
+    "scope": "source.js"
+  },
+  "test.todo": {
+    "body": "test.todo('${1:should }');",
+    "description": "creates a test placeholder",
+    "prefix": "testt",
     "scope": "source.js"
   },
   "test:async": {
