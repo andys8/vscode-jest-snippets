@@ -20,13 +20,13 @@
   "beforeEach": {
     "body": "beforeEach(() => {\n\t$0\n});",
     "description": "beforeEach function is called once before each spec",
-    "prefix": "be",
+    "prefix": "ba",
     "scope": "source.js"
   },
   "describe": {
     "body": "describe('${1:Name of the group}', () => {\n\t$0\n});",
     "description": "creates a describe block",
-    "prefix": "desc",
+    "prefix": "",
     "scope": "source.js"
   },
   "describe.each": {
