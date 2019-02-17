@@ -10,7 +10,9 @@
         "format:sort-json": "sort-json snippets/snippets.json",
         "format:prettier": "prettier --write *.md snippets/*",
         "format": "npm run format:sort-json && npm run format:prettier",
-        "publish": "vsce publish"
+        "publish": "vsce publish",
+        "test": "jest --ci",
+        "test:watch": "jest --watch"
     },
     "repository": {
         "type": "git",
