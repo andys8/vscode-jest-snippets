@@ -9,7 +9,8 @@
     "scripts": {
         "format:sort-json": "sort-json snippets/snippets.json",
         "format:prettier": "prettier --write *.md snippets/*",
-        "format": "npm run format:sort-json && npm run format:prettier"
+        "format": "npm run format:sort-json && npm run format:prettier",
+        "publish": "vsce publish"
     },
     "repository": {
         "type": "git",
@@ -47,6 +48,7 @@
     },
     "devDependencies": {
         "prettier": "^1.14.2",
-        "sort-json": "^2.0.0"
+        "sort-json": "^2.0.0",
+        "vsce": "1.57.0"
     }
 }
