@@ -129,6 +129,21 @@
     "prefix": "ita",
     "scope": "source.js"
   },
+  "it.jsc.assertForall": {
+    "prefix": "itp",
+    "description": "Creates an `it` block with `jsc.assertForall` for property based testing",
+    "body": [
+      "it('${1:should }', () => {",
+      "\tjsc.assertForall(",
+      "\t\t$2,",
+      "\t\t($3) => {",
+      "\t\t\t$0",
+      "\t\t}",
+      "\t)",
+      "});"
+    ],
+    "scope": "source.js"
+  },
   "jest.fn": {
     "body": "jest.fn($0)",
     "description": "creates jest.fn()",
@@ -190,6 +205,21 @@
     "body": "test('${1:should }', async () => {\n\t$0\n});",
     "description": "creates an test block with async callback function",
     "prefix": "testa",
+    "scope": "source.js"
+  },
+  "test.jsc.assertForall": {
+    "prefix": "testp",
+    "description": "Creates a `test` block with `jsc.assertForall` for property based testing",
+    "body": [
+      "test('${1:should }', () => {",
+      "\tjsc.assertForall(",
+      "\t\t$2,",
+      "\t\t($3) => {",
+      "\t\t\t$0",
+      "\t\t}",
+      "\t)",
+      "});"
+    ],
     "scope": "source.js"
   },
   "toBe": {
