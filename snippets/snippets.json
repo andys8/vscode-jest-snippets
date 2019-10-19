@@ -124,7 +124,7 @@
     "scope": "source.js"
   },
   "it:async": {
-    "body": "it('${1:should }', async () => {\n\t$0\n});",
+    "body": "it('${1:should }', async done => {\n\t$0\n\tdone()\n});",
     "description": "creates an it block with async callback function",
     "prefix": "ita",
     "scope": "source.js"
@@ -187,7 +187,7 @@
     "scope": "source.js"
   },
   "test:async": {
-    "body": "test('${1:should }', async () => {\n\t$0\n});",
+    "body": "test('${1:should }', async done => {\n\t$0\n\tdone()\n});",
     "description": "creates an test block with async callback function",
     "prefix": "testa",
     "scope": "source.js"
