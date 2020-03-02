@@ -182,6 +182,7 @@
     ],
     "description": "creates a test block using a permutation table",
     "prefix": "testet",
+    "scope": "source.js"
   },
   "test.only": {
     "body": "test.only('${1:should }', () => {\n\t$0\n});",
