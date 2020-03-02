@@ -168,6 +168,21 @@
     "prefix": "teste",
     "scope": "source.js"
   },
+  "test.each (table)": {
+    "body": [
+      "test.each`",
+      "\t${1:input}             | ${2:expected}",
+      "\t${${3:case1Input}}    | ${${4:case1Expected}}",
+      "`('given $1: $$1, result is $2',",
+      "\t({${1}, ${2}}) => {",
+      "\t\tconst result = $0",
+      "\t\texpect(result).toBe($2);",
+      "\t}",
+      ");"
+    ],
+    "description": "creates a test block using a permutation table",
+    "prefix": "testet",
+  },
   "test.only": {
     "body": "test.only('${1:should }', () => {\n\t$0\n});",
     "description": "creates a test block  that runs only",
