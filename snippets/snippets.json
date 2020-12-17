@@ -87,7 +87,7 @@
     "scope": "source.js"
   },
   "it": {
-    "body": "it('${1:should }', () => {\n\t$0\n});",
+    "body": "it(`${1:should }`, () => {\n\t$0\n});",
     "description": "creates an it block",
     "prefix": "it",
     "scope": "source.js"
@@ -106,25 +106,25 @@
     "scope": "source.js"
   },
   "it.only": {
-    "body": "it.only('${1:should }', () => {\n\t$0\n});",
+    "body": "it.only(`${1:should }`, () => {\n\t$0\n});",
     "description": "creates an it block that runs only",
     "prefix": "ito",
     "scope": "source.js"
   },
   "it.skip": {
-    "body": "it.skip('${1:should }', () => {\n\t$0\n});",
+    "body": "it.skip(`${1:should }`, () => {\n\t$0\n});",
     "description": "creates an it block that will be skipped",
     "prefix": "its",
     "scope": "source.js"
   },
   "it.todo": {
-    "body": "it.todo('${1:should }');",
+    "body": "it.todo(`${1:should }`);",
     "description": "creates a test placeholder",
     "prefix": "itt",
     "scope": "source.js"
   },
   "it:async": {
-    "body": "it('${1:should }', async () => {\n\t$0\n});",
+    "body": "it(`${1:should }`, async () => {\n\t$0\n});",
     "description": "creates an it block with async callback function",
     "prefix": "ita",
     "scope": "source.js"
@@ -150,7 +150,7 @@
     "scope": "source.js"
   },
   "test": {
-    "body": "test('${1:should }', () => {\n\t$0\n});",
+    "body": "test(`${1:should }`, () => {\n\t$0\n});",
     "description": "creates a test block",
     "prefix": "test",
     "scope": "source.js"
@@ -183,25 +183,25 @@
     "scope": "source.js"
   },
   "test.only": {
-    "body": "test.only('${1:should }', () => {\n\t$0\n});",
+    "body": "test.only(`${1:should }`, () => {\n\t$0\n});",
     "description": "creates a test block  that runs only",
     "prefix": "testo",
     "scope": "source.js"
   },
   "test.skip": {
-    "body": "test.skip('${1:should }', () => {\n\t$0\n});",
+    "body": "test.skip(`${1:should }`, () => {\n\t$0\n});",
     "description": "creates a test block that will be skipped",
     "prefix": "tests",
     "scope": "source.js"
   },
   "test.todo": {
-    "body": "test.todo('${1:should }');",
+    "body": "test.todo(`${1:should }`);",
     "description": "creates a test placeholder",
     "prefix": "testt",
     "scope": "source.js"
   },
   "test:async": {
-    "body": "test('${1:should }', async () => {\n\t$0\n});",
+    "body": "test(`${1:should }`, async () => {\n\t$0\n});",
     "description": "creates an test block with async callback function",
     "prefix": "testa",
     "scope": "source.js"
