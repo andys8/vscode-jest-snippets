@@ -17,10 +17,22 @@
     "prefix": "ba",
     "scope": "source.js"
   },
+  "beforeAll:async": {
+    "body": "beforeAll(async () => {\n\t$0\n});",
+    "description": "beforeAll with async function is called once before all specs",
+    "prefix": "baa",
+    "scope": "source.js"
+  },
   "beforeEach": {
     "body": "beforeEach(() => {\n\t$0\n});",
     "description": "beforeEach function is called once before each spec",
     "prefix": "be",
+    "scope": "source.js"
+  },
+  "beforeEach:async": {
+    "body": "beforeEach(async () => {\n\t$0\n});",
+    "description": "beforeEach with async callback function is called once before each spec",
+    "prefix": "bea",
     "scope": "source.js"
   },
   "describe": {
