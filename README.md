@@ -10,16 +10,17 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Globals
 
-|  Trigger | Content       |
-| -------: | ------------- |
-|  `desc→` | describe      |
-| `desco→` | describe.only |
-| `descs→` | describe.skip |
-| `desce→` | describe.each |
-|    `ae→` | after each    |
-|    `aa→` | after all     |
-|    `be→` | before each   |
-|    `ba→` | before all    |
+|  Trigger | Content                   |
+| -------: | ------------------------- |
+|  `desc→` | describe                  |
+| `desco→` | describe.only             |
+| `descs→` | describe.skip             |
+| `desce→` | describe.each             |
+|    `ae→` | after each                |
+|    `aa→` | after all                 |
+|    `be→` | before each               |
+|   `bea→` | before each (async ...)   |
+|    `ba→` | before all                |
 
 ### Tests
 

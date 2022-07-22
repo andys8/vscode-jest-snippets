@@ -23,6 +23,12 @@
     "prefix": "be",
     "scope": "source.js"
   },
+  "beforeEach:async": {
+    "body": "beforeEach(async () => {\n\t$0\n});",
+    "description": "creates a beforeEach block with async callback",
+    "prefix": "bea",
+    "scope": "source.js"
+  },
   "describe": {
     "body": "describe('${1:Name of the group}', () => {\n\t$0\n});",
     "description": "creates a describe block",
