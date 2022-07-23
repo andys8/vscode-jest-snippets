@@ -11,18 +11,18 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Globals
 
-| Trigger  | Content               |
+|  Trigger | Content               |
 | -------: | --------------------- |
-| `desc→`  | describe              |
+|  `desc→` | describe              |
 | `desco→` | describe.only         |
 | `descs→` | describe.skip         |
 | `desce→` | describe.each         |
-| `ae→`    | afterEach             |
-| `aa→`    | afterAll              |
-| `be→`    | beforeEach            |
-| `bea→`   | beforeEach(async ...) |
-| `ba→`    | beforeAll             |
-| `baa→`   | beforeAll(async ...)  |
+|    `ae→` | afterEach             |
+|    `aa→` | afterAll              |
+|    `be→` | beforeEach            |
+|   `bea→` | beforeEach(async ...) |
+|    `ba→` | beforeAll             |
+|   `baa→` | beforeAll(async ...)  |
 
 ### Tests
 
