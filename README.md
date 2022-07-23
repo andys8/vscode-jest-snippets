@@ -1,6 +1,7 @@
 # vscode-jest-snippets
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/andys8.jest-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets)
+[![Node CI](https://github.com/andys8/vscode-jest-snippets/actions/workflows/test.yaml/badge.svg)](https://github.com/andys8/vscode-jest-snippets/actions/workflows/test.yaml)
 
 [Jest](https://facebook.github.io/jest) snippets extension for [Visual Studio Code](https://code.visualstudio.com/).
 
