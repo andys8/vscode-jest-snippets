@@ -219,7 +219,7 @@
     "scope": "source.js"
   },
   "toBe": {
-    "body": "expect($1).toBe($0);",
+    "body": "expect($1).toBe($2);$0",
     "description": "expects the first argument to be equal with the second one",
     "prefix": "tb",
     "scope": "source.js"
@@ -243,31 +243,31 @@
     "scope": "source.js"
   },
   "toBeGreaterThan": {
-    "body": "expect($1).toBeGreaterThan($0);",
+    "body": "expect($1).toBeGreaterThan($2);$0",
     "description": "expects the argument is greater than or equal",
     "prefix": "tbgt",
     "scope": "source.js"
   },
   "toBeGreaterThanOrEqual": {
-    "body": "expect($1).toBeGreaterThanOrEqual($0);",
+    "body": "expect($1).toBeGreaterThanOrEqual($2);$0",
     "description": "expects the argument is greater than",
     "prefix": "tbgte",
     "scope": "source.js"
   },
   "toBeInstanceOf": {
-    "body": "expect($1).toBeInstanceOf($0);",
+    "body": "expect($1).toBeInstanceOf($2);$0",
     "description": "expects the argument is less than",
     "prefix": "tbi",
     "scope": "source.js"
   },
   "toBeLessThan": {
-    "body": "expect($1).toBeLessThan($0);",
+    "body": "expect($1).toBeLessThan($2);$0",
     "description": "expects the argument is less than",
     "prefix": "tblt",
     "scope": "source.js"
   },
   "toBeLessThanOrEqual": {
-    "body": "expect($1).toBeLessThanOrEqual($0);",
+    "body": "expect($1).toBeLessThanOrEqual($2);$0",
     "description": "expects the argument is less than or equal",
     "prefix": "tblte",
     "scope": "source.js"
@@ -291,19 +291,19 @@
     "scope": "source.js"
   },
   "toContain": {
-    "body": "expect(${1:list}).toContain($0);",
+    "body": "expect(${1:list}).toContain($2);$0",
     "description": "expects the list contains the item (===)",
     "prefix": "tc",
     "scope": "source.js"
   },
   "toContainEqual": {
-    "body": "expect(${1:list}).toContainEqual($0);",
+    "body": "expect(${1:list}).toContainEqual($2);$0",
     "description": "expects the list contains the item (equals)",
     "prefix": "tce",
     "scope": "source.js"
   },
   "toEqual": {
-    "body": "expect($1).toEqual($0);",
+    "body": "expect($1).toEqual($2);$0",
     "description": "expects the first argument to be equal with the second one",
     "prefix": "te",
     "scope": "source.js"
@@ -315,25 +315,25 @@
     "scope": "source.js"
   },
   "toHaveBeenCalledTimes": {
-    "body": "expect($1).toHaveBeenCalledTimes($0);",
+    "body": "expect($1).toHaveBeenCalledTimes($2);$0",
     "description": "returns true if the spy has been called given times",
     "prefix": "thbct",
     "scope": "source.js"
   },
   "toHaveBeenCalledWith": {
-    "body": "expect($1).toHaveBeenCalledWith($0);",
+    "body": "expect($1).toHaveBeenCalledWith($2);$0",
     "description": "returns true if the spy has been called with",
     "prefix": "thbcw",
     "scope": "source.js"
   },
   "toHaveBeenLastCalledWith": {
-    "body": "expect($1).toHaveBeenLastCalledWith($0);",
+    "body": "expect($1).toHaveBeenLastCalledWith($2);$0",
     "description": "returns true if the spy has been last called with",
     "prefix": "thblcw",
     "scope": "source.js"
   },
   "toHaveLength": {
-    "body": "expect($1).toHaveLength($0);",
+    "body": "expect($1).toHaveLength($2);$0",
     "description": "expects the object to have length",
     "prefix": "thl",
     "scope": "source.js"
@@ -345,31 +345,31 @@
     "scope": "source.js"
   },
   "toMatch": {
-    "body": "expect($1).toMatch($0);",
+    "body": "expect($1).toMatch($2);$0",
     "description": "returns true if the argument matches the second value",
     "prefix": "tm",
     "scope": "source.js"
   },
   "toMatchInlineSnapshot": {
-    "body": "expect($1).toMatchInlineSnapshot($0);",
+    "body": "expect($1).toMatchInlineSnapshot($2);$0",
     "description": "returns true if the argument matches the most recent inline snapshot",
     "prefix": "tmis",
     "scope": "source.js"
   },
   "toMatchObject": {
-    "body": "expect($1).toMatchObject($0);",
+    "body": "expect($1).toMatchObject($2);$0",
     "description": "returns true if the argument matches the second object",
     "prefix": "tmo",
     "scope": "source.js"
   },
   "toMatchSnapshot": {
-    "body": "expect($1).toMatchSnapshot($0);",
+    "body": "expect($1).toMatchSnapshot($2);$0",
     "description": "returns true if the argument matches the most recent snapshot",
     "prefix": "tms",
     "scope": "source.js"
   },
   "toStrictEqual": {
-    "body": "expect($1).toStrictEqual($0);",
+    "body": "expect($1).toStrictEqual($2);$0",
     "description": "expects the first argument to be strictly equal with the second one",
     "prefix": "tse",
     "scope": "source.js"
