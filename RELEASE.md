@@ -22,4 +22,3 @@ with custom defined scope "Marketplace"
 ```shell
 vsce login andys8
 ```
-

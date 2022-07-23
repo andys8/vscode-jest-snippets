@@ -1,6 +1,6 @@
 const snippets = require("./snippets.json");
 
-const unique = xs => [...new Set(xs)];
+const unique = (xs) => [...new Set(xs)];
 
 describe("snippets.json", () => {
   it("has entries", () => {
@@ -14,11 +14,11 @@ describe("snippets.json", () => {
   });
 
   it("has unique prefixes", () => {
-    const prefixes = Object.values(snippets).map(x => x.prefix);
+    const prefixes = Object.values(snippets).map((x) => x.prefix);
     expect(prefixes).toEqual(unique(prefixes));
   });
 
-  describe.each(Object.keys(snippets))("%s", k => {
+  describe.each(Object.keys(snippets))("%s", (k) => {
     it("has prefix", () => {
       const { prefix } = snippets[k];
       expect(prefix).toBeDefined();
