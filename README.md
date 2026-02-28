@@ -78,7 +78,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |    `tms→` | toMatchSnapshot                    |
 |   `tmis→` | toMatchInlineSnapshot              |
 |     `tt→` | toThrow                            |
-|    `tte→` | toThrowError                       |
 |  `ttems→` | toThrowErrorMatchingSnapshot       |
 | `ttemis→` | toThrowErrorMatchingInlineSnapshot |
 
