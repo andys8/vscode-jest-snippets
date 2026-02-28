@@ -159,6 +159,12 @@
     "prefix": "jfn",
     "scope": "source.js"
   },
+  "jest.spyOn": {
+    "body": "jest.spyOn(${1:object}, '${2:methodName}')$0",
+    "description": "creates jest.spyOn()",
+    "prefix": "jso",
+    "scope": "source.js"
+  },
   "template:cut": {
     "body": [
       "describe('${1:Name of the group}', () => {\n",

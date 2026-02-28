@@ -95,6 +95,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | ------: | ----------------------- |
 |  `cut→` | test a class under test |
 |  `jfn→` | jest.fn                 |
+|  `jso→` | jest.spyOn              |
 
 ## Settings
 
