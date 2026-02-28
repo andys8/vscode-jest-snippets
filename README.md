@@ -72,7 +72,12 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  `thbcw→` | toHaveBeenCalledWith               |
 | `thblcw→` | toHaveBeenLastCalledWith           |
 |    `thl→` | toHaveLength                       |
+|  `thlrw→` | toHaveLastReturnedWith             |
+|  `thnrw→` | toHaveNthReturnedWith              |
 |    `thp→` | toHaveProperty                     |
+|    `thr→` | toHaveReturned                     |
+|   `thrt→` | toHaveReturnedTimes                |
+|   `thrw→` | toHaveReturnedWith                 |
 |     `tm→` | toMatch                            |
 |    `tmo→` | toMatchObject                      |
 |    `tms→` | toMatchSnapshot                    |
