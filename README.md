@@ -18,7 +18,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `descs→` | describe.skip         |
 | `desce→` | describe.each         |
 |    `ae→` | afterEach             |
+|   `aea→` | afterEach(async ...)  |
 |    `aa→` | afterAll              |
+|   `aaa→` | afterAll(async ...)   |
 |    `be→` | beforeEach            |
 |   `bea→` | beforeEach(async ...) |
 |    `ba→` | beforeAll             |

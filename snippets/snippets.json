@@ -5,10 +5,22 @@
     "prefix": "aa",
     "scope": "source.js"
   },
+  "afterAll:async": {
+    "body": "afterAll(async () => {\n\t$0\n});",
+    "description": "afterAll with async function is called once after all specs",
+    "prefix": "aaa",
+    "scope": "source.js"
+  },
   "afterEach": {
     "body": "afterEach(() => {\n\t$0\n});",
     "description": "afterEach function is called once after each spec",
     "prefix": "ae",
+    "scope": "source.js"
+  },
+  "afterEach:async": {
+    "body": "afterEach(async () => {\n\t$0\n});",
+    "description": "afterEach with async function is called once after each spec",
+    "prefix": "aea",
     "scope": "source.js"
   },
   "beforeAll": {
