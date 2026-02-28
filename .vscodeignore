@@ -1,3 +1,9 @@
 .vscode/**
 .gitignore
 node_modules/**
+snippets/snippets.test.js
+package-lock.json
+RELEASE.md
+.prettierrc
+# GitHub Actions
+.github/**
