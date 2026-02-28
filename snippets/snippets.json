@@ -332,16 +332,46 @@
     "prefix": "thblcw",
     "scope": "source.js"
   },
+  "toHaveLastReturnedWith": {
+    "body": "expect($1).toHaveLastReturnedWith($2);$0",
+    "description": "returns true if the mock function last returned the specified value",
+    "prefix": "thlrw",
+    "scope": "source.js"
+  },
   "toHaveLength": {
     "body": "expect($1).toHaveLength($2);$0",
     "description": "expects the object to have length",
     "prefix": "thl",
     "scope": "source.js"
   },
+  "toHaveNthReturnedWith": {
+    "body": "expect($1).toHaveNthReturnedWith(${2:n}, $3);$0",
+    "description": "returns true if the mock function returned the specified value on the nth call",
+    "prefix": "thnrw",
+    "scope": "source.js"
+  },
   "toHaveProperty": {
     "body": "expect($1).toHaveProperty(${2:keyPath}, ${3:value});$0",
     "description": "returns true if the argument matches the second object",
     "prefix": "thp",
+    "scope": "source.js"
+  },
+  "toHaveReturned": {
+    "body": "expect($1).toHaveReturned();$0",
+    "description": "returns true if the mock function returned successfully",
+    "prefix": "thr",
+    "scope": "source.js"
+  },
+  "toHaveReturnedTimes": {
+    "body": "expect($1).toHaveReturnedTimes($2);$0",
+    "description": "returns true if the mock function returned the specified number of times",
+    "prefix": "thrt",
+    "scope": "source.js"
+  },
+  "toHaveReturnedWith": {
+    "body": "expect($1).toHaveReturnedWith($2);$0",
+    "description": "returns true if the mock function returned the specified value",
+    "prefix": "thrw",
     "scope": "source.js"
   },
   "toMatch": {
