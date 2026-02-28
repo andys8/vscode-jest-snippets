@@ -71,6 +71,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  `thbct→` | toHaveBeenCalledTimes              |
 |  `thbcw→` | toHaveBeenCalledWith               |
 | `thblcw→` | toHaveBeenLastCalledWith           |
+| `thbncw→` | toHaveBeenNthCalledWith            |
 |    `thl→` | toHaveLength                       |
 |  `thlrw→` | toHaveLastReturnedWith             |
 |  `thnrw→` | toHaveNthReturnedWith              |

@@ -332,6 +332,12 @@
     "prefix": "thblcw",
     "scope": "source.js"
   },
+  "toHaveBeenNthCalledWith": {
+    "body": "expect($1).toHaveBeenNthCalledWith(${2:n}, $3);$0",
+    "description": "returns true if the spy has been called with on the nth call",
+    "prefix": "thbncw",
+    "scope": "source.js"
+  },
   "toHaveLastReturnedWith": {
     "body": "expect($1).toHaveLastReturnedWith($2);$0",
     "description": "returns true if the mock function last returned the specified value",
